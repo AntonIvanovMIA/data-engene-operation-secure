@@ -66,6 +66,18 @@ Gateway / Webserver --> Filebeat (port 5044) --> Logstash --> Elasticsearch (HTT
 ## Status
 🟢 Week 1 — Complete
 🟡 Week 2 — Complete
+## Week 2 Deliverables (Anton - Individual Contribution)
+
+- Enhanced Logstash pipeline with UFW firewall and SSH authentication parsing
+- Python log preprocessing script with threat classification (brute_force detection)
+- Field naming convention (ECS-aligned schema)
+- Elasticsearch index template for structured mappings
+- 3 Kibana visualisations:
+  - Log Events by Source VM (Area chart)
+  - Events by Log Type (Horizontal bar)
+  - Events by Process (Donut chart)
+- SOC Dashboard: "Catnip SOC - Security Overview"
+- Git repository structure with configs, scripts, docs, and evidence
 ⬜ Week 3-  Process
 ⬜⬜Week4-  Process
 ⬜🟡Week 5-12 — Planned
