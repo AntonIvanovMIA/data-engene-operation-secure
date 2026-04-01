@@ -65,8 +65,10 @@ Gateway / Webserver --> Filebeat (port 5044) --> Logstash --> Elasticsearch (HTT
 
 ## Status
 🟢 Week 1 — Complete
-🟡 Week 2 — In Progress
-⬜ Week 3–12 — Planned
+🟡 Week 2 — Complete
+⬜ Week 3-  Process
+⬜⬜Week4-  Process
+⬜🟡Week 5-12 — Planned
 
 ## Repository Structure
 catnip-soc/
