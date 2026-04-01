@@ -1,0 +1,7 @@
+# Don't upload large processed data files to GitHub
+data/processed/syslog_enriched.json
+data/processed/*.json
+!data/processed/.gitkeep
+
+# Keep the folder structure
+!data/processed/
