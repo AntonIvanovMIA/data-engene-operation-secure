@@ -78,9 +78,11 @@ Gateway / Webserver --> Filebeat (port 5044) --> Logstash --> Elasticsearch (HTT
   - Events by Process (Donut chart)
 - SOC Dashboard: "Catnip SOC - Security Overview"
 - Git repository structure with configs, scripts, docs, and evidence
-⬜ Week 3-  Process
-⬜⬜Week4-  Process
-⬜🟡Week 5-12 — Planned
+
+## Status
+🟢🟡 Week 3-  Process
+⬜⬜ Week 4-  Process
+⬜🟡 Week 5-12 — Planned
 
 ## Repository Structure
 catnip-soc/
