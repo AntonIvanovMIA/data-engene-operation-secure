@@ -33,24 +33,24 @@ Gateway / Webserver --> Filebeat (port 5044) --> Logstash --> Elasticsearch (HTT
 - First Kibana visualisations and security dashboard
 - Git repository setup and documentation structure
 
-### Part 2 — Week 3–4: IDS Log Source (Anton)
+### Part 2 — Week 3–4: IDS Log Source (Anton And Clesus)
 - IDS (Snort-format) log generator and simulation
 - Filebeat configuration for IDS log collection
 - Logstash IDS parsing pipeline
 - Python IDS preprocessor script
 - IDS Kibana visualisations and combined dashboard
 
-### Part 2 — Week 5–6: Authentication & Access Control (Anton)
+### Part 2 — Week 5–6: Authentication & Access Control (Mohammad Ali)
 - Authentication log deep analysis with brute-force detection
 - RBAC implementation (soc_analyst and soc_engineer roles)
 - Multi-source security dashboard
 
-### Part 3 — Week 7–8: Retention & Monitoring (Mohammad Ali)
+### Part 3 — Week 7–8: Retention & Monitoring (Nihal)
 - Index Lifecycle Management (ILM) 30-day retention policy
 - System health monitoring script (Python)
 - Performance testing and optimisation
 
-### Part 3 — Week 9–10: Security Hardening & Documentation (Nihal)
+### Part 3 — Week 9–10: Security Hardening & Documentation (Anton)
 - Elasticsearch audit logging
 - UFW firewall rules on ElasticStackServer
 - Security hardening checklist
