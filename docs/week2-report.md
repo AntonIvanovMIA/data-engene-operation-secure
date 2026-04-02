@@ -122,3 +122,4 @@ It forms the foundation for multi-source integration in later weeks.
 ### 7. Conclusion
 
 Week 2 successfully transformed raw logs into structured, enriched, and visualised data. The system now supports meaningful security analysis and provides a strong base for IDS integration in Week 3.
+Additional SSH authentication failures were simulated using automated non-interactive SSH attempts in order to generate realistic brute-force attack patterns for testing the pipeline and visualisations.
