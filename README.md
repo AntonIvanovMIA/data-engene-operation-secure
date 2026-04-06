@@ -33,7 +33,7 @@ Gateway / Webserver --> Filebeat (port 5044) --> Logstash --> Elasticsearch (HTT
 - First Kibana visualisations and security dashboard
 - Git repository setup and documentation structure
 
-### Part 2 — Week 3–4: IDS Log Source (Anton And Clesus)
+### Part 2 — Week 3–4: IDS Log Source (Anton)
 - IDS (Snort-format) log generator and simulation
 - Filebeat configuration for IDS log collection
 - Logstash IDS parsing pipeline
@@ -64,25 +64,18 @@ Gateway / Webserver --> Filebeat (port 5044) --> Logstash --> Elasticsearch (HTT
 - STAR narrative, screencast, Q&A preparation, report, final demonstration
 
 ## Status
-🟢 Week 1 — Complete
-🟡 Week 2 — Complete
-## Week 2 Deliverables (Anton - Individual Contribution)
+## Week 1 2,3,4 Deliverables (Anton - Individual Contribution)
 
-- Enhanced Logstash pipeline with UFW firewall and SSH authentication parsing
-- Python log preprocessing script with threat classification (brute_force detection)
-- Field naming convention (ECS-aligned schema)
-- Elasticsearch index template for structured mappings
-- 3 Kibana visualisations:
-  - Log Events by Source VM (Area chart)
-  - Events by Log Type (Horizontal bar)
-  - Events by Process (Donut chart)
-- SOC Dashboard: "Catnip SOC - Security Overview"
-- Git repository structure with configs, scripts, docs, and evidence
+
 
 ## Status
-🟢🟡 Week 3-  Process
-⬜⬜ Week 4-  Process
-⬜🟡 Week 5-12 — Planned
+🟢 Week 1 — Complete (ELK Stack foundation)
+🔴 Week 2 — Complete (Enhanced parsing, Python preprocessor, first dashboard)
+⭕ Week 3-4 — Complete (IDS log source, Python IDS indexer, IDS preprocessor, IDS visualisations)
+⬜ Week 5-6 — Planned (Auth analysis, RBAC)
+⬜ Week 7-8 — Planned (ILM retention, health monitor)
+⬜ Week 9-10 — Planned (Security hardening, documentation)
+⬜ Week 11-12 — Planned (WOW factor, STAR, demo
 
 ## Repository Structure
 catnip-soc/

@@ -1,0 +1,800 @@
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-07:22:01.719712 203.0.113.24:15492 -> 192.168.100.30:8080 UDP
+[**] [1:500002:2] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-00:19:01.719712 10.235.202.183:50468 -> 192.168.100.1:8080 UDP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-20:16:01.719712 10.105.63.247:22161 -> 192.168.100.30:8443 UDP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/06/2026-09:13:01.719712 10.128.18.30:45733 -> 192.168.100.30:8443 TCP
+[**] [1:100002:5] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-01:55:01.719712 10.81.176.36:62177 -> 192.168.100.20:8080 UDP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/01/2026-05:56:01.719712 10.241.212.90:58679 -> 192.168.100.1:53 TCP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/30/2026-23:30:01.719712 10.193.218.13:39611 -> 192.168.100.30:53 TCP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-14:56:01.719712 10.105.63.247:20629 -> 192.168.100.30:22 UDP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-07:33:01.719712 203.0.113.45:55647 -> 192.168.100.1:5432 TCP
+[**] [1:100003:3] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 03/30/2026-20:36:01.719712 203.0.113.126:13618 -> 192.168.100.10:8080 UDP
+[**] [1:500002:5] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/01/2026-11:47:01.719712 10.154.86.20:52677 -> 192.168.100.10:443 UDP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-13:28:01.719712 10.249.41.173:28864 -> 192.168.100.30:443 UDP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/31/2026-03:06:01.719712 203.0.113.116:1310 -> 192.168.100.30:80 UDP
+[**] [1:100003:5] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-04:46:01.719712 10.235.202.183:26469 -> 192.168.100.40:8080 UDP
+[**] [1:300004:4] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/30/2026-21:55:01.719712 10.105.63.247:38149 -> 192.168.100.10:22 UDP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/04/2026-13:53:01.719712 203.0.113.169:42466 -> 192.168.100.1:80 TCP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-00:45:01.719712 10.129.77.110:36140 -> 192.168.100.30:5432 UDP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-04:15:01.719712 10.147.123.208:12849 -> 192.168.100.30:80 TCP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-14:14:01.719712 10.228.30.35:39518 -> 192.168.100.40:53 TCP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-00:37:01.719712 10.12.50.1:48675 -> 192.168.100.40:80 UDP
+[**] [1:100003:3] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-15:24:01.719712 10.193.11.247:64364 -> 192.168.100.40:3389 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-13:03:01.719712 203.0.113.160:65099 -> 192.168.100.30:25 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-00:42:01.719712 10.234.248.179:8555 -> 192.168.100.1:443 TCP
+[**] [1:500001:3] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-23:10:01.719712 203.0.113.116:13291 -> 192.168.100.1:8080 UDP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/02/2026-05:09:01.719712 10.55.190.133:58289 -> 192.168.100.20:53 UDP
+[**] [1:300001:1] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/01/2026-22:18:01.719712 10.212.110.162:37233 -> 192.168.100.1:3389 UDP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-15:40:01.719712 10.193.218.13:30697 -> 192.168.100.1:53 UDP
+[**] [1:400002:4] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-08:02:01.719712 10.212.110.162:4299 -> 192.168.100.20:53 TCP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-21:29:01.719712 10.193.218.13:47514 -> 192.168.100.1:80 TCP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-20:58:01.719712 10.186.223.234:14782 -> 192.168.100.20:3389 TCP
+[**] [1:300003:2] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-23:33:01.719712 10.124.10.112:28961 -> 192.168.100.1:25 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-09:16:01.719712 10.242.17.59:48046 -> 192.168.100.1:53 TCP
+[**] [1:100001:3] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-05:52:01.719712 203.0.113.138:10613 -> 192.168.100.10:8443 UDP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-12:33:01.719712 10.154.86.20:23886 -> 192.168.100.20:53 UDP
+[**] [1:300001:1] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/04/2026-18:33:01.719712 10.12.50.1:60511 -> 192.168.100.30:5432 UDP
+[**] [1:100001:2] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-14:29:01.719712 10.81.176.36:63564 -> 192.168.100.30:8443 TCP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-05:21:01.719712 10.4.53.202:26613 -> 192.168.100.1:22 TCP
+[**] [1:300001:5] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/03/2026-06:06:01.719712 10.124.10.112:43982 -> 192.168.100.20:3389 UDP
+[**] [1:400001:2] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-00:06:01.719712 10.249.41.173:31917 -> 192.168.100.10:25 TCP
+[**] [1:200002:3] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-03:00:01.719712 10.54.214.146:50968 -> 192.168.100.30:8443 UDP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-08:01:01.719712 10.193.11.247:58593 -> 192.168.100.10:8443 UDP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-19:44:01.719712 10.82.179.221:28269 -> 192.168.100.30:8443 TCP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-18:14:01.719712 10.193.218.13:45069 -> 192.168.100.40:5432 UDP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-14:13:01.719712 10.129.77.110:3640 -> 192.168.100.20:443 TCP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-08:23:01.719712 10.129.77.110:42149 -> 192.168.100.20:80 UDP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-07:21:01.719712 10.55.190.133:63235 -> 192.168.100.20:53 TCP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-17:39:01.719712 10.70.148.211:40173 -> 192.168.100.20:8080 UDP
+[**] [1:500002:4] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-14:32:01.719712 203.0.113.90:63596 -> 192.168.100.20:8443 UDP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-01:53:01.719712 10.4.53.202:61989 -> 192.168.100.40:5432 UDP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-08:52:01.719712 10.147.123.208:37811 -> 192.168.100.10:25 TCP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/03/2026-09:15:01.719712 10.82.179.221:24271 -> 192.168.100.20:443 TCP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-09:31:01.719712 203.0.113.138:36126 -> 192.168.100.20:8080 UDP
+[**] [1:400001:3] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-19:25:01.719712 10.105.63.247:28832 -> 192.168.100.1:3389 UDP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/06/2026-08:28:01.719712 10.70.148.211:6582 -> 192.168.100.40:443 TCP
+[**] [1:200003:4] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-19:31:01.719712 203.0.113.1:26512 -> 192.168.100.10:8443 TCP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-00:24:01.719712 10.228.30.35:11581 -> 192.168.100.40:5432 TCP
+[**] [1:300004:3] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-11:12:01.719712 10.124.10.112:4847 -> 192.168.100.30:8080 UDP
+[**] [1:100001:5] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-05:47:01.719712 10.98.194.178:10530 -> 192.168.100.1:8443 TCP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-05:27:01.719712 10.12.181.66:62921 -> 192.168.100.40:443 UDP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-07:12:01.719712 10.124.10.112:61807 -> 192.168.100.10:8443 TCP
+[**] [1:100001:3] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-03:54:01.719712 10.242.17.59:64467 -> 192.168.100.30:3306 TCP
+[**] [1:200002:5] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-01:09:01.719712 203.0.113.138:63935 -> 192.168.100.30:8080 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-10:21:01.719712 10.234.248.179:48312 -> 192.168.100.20:22 UDP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-00:16:01.719712 10.129.77.110:53523 -> 192.168.100.1:8443 UDP
+[**] [1:300003:5] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-23:11:01.719712 10.4.53.202:62200 -> 192.168.100.20:8080 TCP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-19:05:01.719712 10.234.248.179:50175 -> 192.168.100.20:25 UDP
+[**] [1:100002:5] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-10:56:01.719712 10.154.86.20:65193 -> 192.168.100.1:8443 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-14:21:01.719712 10.241.212.90:43629 -> 192.168.100.20:3389 UDP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-21:04:01.719712 10.129.77.110:11702 -> 192.168.100.40:80 UDP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-03:48:01.719712 10.235.202.183:33414 -> 192.168.100.40:3306 TCP
+[**] [1:500002:3] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-20:07:01.719712 10.4.53.202:24451 -> 192.168.100.20:5432 TCP
+[**] [1:300004:4] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-01:48:01.719712 10.228.30.35:19314 -> 192.168.100.30:25 TCP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-04:38:01.719712 10.55.190.133:57972 -> 192.168.100.1:3306 TCP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-22:03:01.719712 203.0.113.24:4275 -> 192.168.100.1:5432 TCP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-22:56:01.719712 10.125.117.195:64219 -> 192.168.100.20:3306 UDP
+[**] [1:100001:5] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-15:48:01.719712 10.136.112.149:9885 -> 192.168.100.10:8443 UDP
+[**] [1:400002:4] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-13:03:01.719712 203.0.113.160:3849 -> 192.168.100.20:8443 UDP
+[**] [1:200001:2] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/30/2026-20:41:01.719712 10.154.86.20:15565 -> 192.168.100.30:5432 UDP
+[**] [1:500001:1] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-13:24:01.719712 203.0.113.116:49768 -> 192.168.100.40:8443 TCP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-14:41:01.719712 10.128.18.30:6080 -> 192.168.100.20:3306 TCP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-03:23:01.719712 10.193.11.247:5773 -> 192.168.100.30:3389 TCP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-16:32:01.719712 10.241.212.90:62325 -> 192.168.100.20:8080 UDP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-16:08:01.719712 10.105.63.247:10737 -> 192.168.100.40:3389 UDP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-03:35:01.719712 203.0.113.160:27086 -> 192.168.100.10:443 TCP
+[**] [1:500002:5] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-02:04:01.719712 203.0.113.45:40334 -> 192.168.100.30:3389 UDP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-22:19:01.719712 203.0.113.45:16339 -> 192.168.100.1:3306 UDP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-18:44:01.719712 10.154.86.20:20650 -> 192.168.100.40:22 UDP
+[**] [1:300003:4] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-03:10:01.719712 203.0.113.160:4447 -> 192.168.100.10:8080 UDP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-20:41:01.719712 10.98.194.178:20366 -> 192.168.100.20:8080 UDP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/04/2026-21:14:01.719712 10.55.190.133:42304 -> 192.168.100.20:8443 TCP
+[**] [1:500001:2] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/06/2026-16:02:01.719712 10.105.63.247:33055 -> 192.168.100.10:8443 UDP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-20:57:01.719712 10.105.63.247:5123 -> 192.168.100.10:3306 TCP
+[**] [1:300001:1] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/03/2026-19:21:01.719712 10.136.112.149:7010 -> 192.168.100.40:3389 UDP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-09:24:01.719712 10.193.218.13:58624 -> 192.168.100.20:22 TCP
+[**] [1:200002:1] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-13:42:01.719712 10.234.248.179:40987 -> 192.168.100.40:53 UDP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-21:38:01.719712 10.186.191.77:56118 -> 192.168.100.40:8443 UDP
+[**] [1:200002:3] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-19:47:01.719712 10.128.18.30:54104 -> 192.168.100.20:8443 UDP
+[**] [1:500001:1] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-16:28:01.719712 10.125.117.195:45865 -> 192.168.100.40:25 TCP
+[**] [1:100003:1] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-02:56:01.719712 203.0.113.121:11349 -> 192.168.100.40:8080 TCP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-13:37:01.719712 10.81.176.36:39486 -> 192.168.100.10:3306 UDP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-17:37:01.719712 10.129.77.110:51220 -> 192.168.100.30:80 TCP
+[**] [1:500001:3] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-04:28:01.719712 10.228.30.35:40978 -> 192.168.100.40:3306 TCP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/30/2026-20:41:01.719712 203.0.113.126:40986 -> 192.168.100.40:8443 UDP
+[**] [1:300004:3] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-10:04:01.719712 10.154.86.20:30347 -> 192.168.100.20:3389 TCP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-02:36:01.719712 10.249.41.173:21097 -> 192.168.100.40:8443 TCP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-03:46:01.719712 203.0.113.169:41732 -> 192.168.100.20:53 TCP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-14:54:01.719712 203.0.113.116:36812 -> 192.168.100.10:3389 TCP
+[**] [1:300003:5] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-16:27:01.719712 10.234.248.179:26224 -> 192.168.100.10:443 UDP
+[**] [1:300003:4] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-22:10:01.719712 203.0.113.138:1643 -> 192.168.100.30:22 UDP
+[**] [1:500001:4] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-20:22:01.719712 203.0.113.90:52594 -> 192.168.100.40:25 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-17:37:01.719712 10.235.202.183:57427 -> 192.168.100.40:3306 TCP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-06:42:01.719712 10.228.30.35:2160 -> 192.168.100.20:8080 TCP
+[**] [1:400002:1] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-00:39:01.719712 10.249.41.173:48089 -> 192.168.100.20:53 UDP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-22:52:01.719712 10.249.41.173:36738 -> 192.168.100.10:3389 TCP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-10:03:01.719712 10.55.190.133:24514 -> 192.168.100.30:443 TCP
+[**] [1:100001:5] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-08:05:01.719712 10.235.202.183:35345 -> 192.168.100.10:443 TCP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-04:47:01.719712 203.0.113.126:3452 -> 192.168.100.10:53 UDP
+[**] [1:100001:2] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-21:53:01.719712 10.234.248.179:65479 -> 192.168.100.1:443 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/30/2026-23:34:01.719712 10.186.191.77:31267 -> 192.168.100.1:3306 UDP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-17:10:01.719712 10.235.202.183:31094 -> 192.168.100.1:3389 UDP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-09:00:01.719712 10.228.30.35:7148 -> 192.168.100.10:8443 TCP
+[**] [1:500001:3] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-07:32:01.719712 10.55.190.133:49885 -> 192.168.100.30:8080 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-20:43:01.719712 10.124.10.112:63795 -> 192.168.100.30:443 TCP
+[**] [1:300003:4] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-08:08:01.719712 10.129.77.110:8316 -> 192.168.100.30:5432 TCP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-16:32:01.719712 203.0.113.24:25048 -> 192.168.100.1:53 TCP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-13:07:01.719712 203.0.113.138:22607 -> 192.168.100.30:25 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-21:58:01.719712 10.193.11.247:18483 -> 192.168.100.40:22 TCP
+[**] [1:400002:1] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-13:58:01.719712 10.249.41.173:5307 -> 192.168.100.30:5432 TCP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/03/2026-10:33:01.719712 10.212.110.162:39505 -> 192.168.100.10:22 TCP
+[**] [1:500001:3] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-08:17:01.719712 10.154.86.20:24007 -> 192.168.100.1:3389 TCP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-06:59:01.719712 10.242.17.59:35355 -> 192.168.100.1:25 TCP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-00:21:01.719712 203.0.113.121:2545 -> 192.168.100.40:5432 TCP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-20:17:01.719712 10.186.191.77:26824 -> 192.168.100.20:3306 TCP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-16:28:01.719712 10.193.218.13:29763 -> 192.168.100.30:3306 TCP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-06:18:01.719712 203.0.113.126:23622 -> 192.168.100.20:8080 UDP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/30/2026-22:47:01.719712 203.0.113.126:63461 -> 192.168.100.40:8080 TCP
+[**] [1:500001:2] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 03/30/2026-23:52:01.719712 10.136.112.149:5561 -> 192.168.100.40:5432 UDP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-08:39:01.719712 10.235.202.183:1561 -> 192.168.100.20:22 TCP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-21:13:01.719712 10.54.214.146:30550 -> 192.168.100.10:5432 UDP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-16:01:01.719712 10.4.53.202:63069 -> 192.168.100.20:443 UDP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-06:15:01.719712 10.129.77.110:1803 -> 192.168.100.20:80 TCP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-12:51:01.719712 10.55.190.133:48863 -> 192.168.100.1:443 UDP
+[**] [1:300004:3] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-13:13:01.719712 203.0.113.121:31366 -> 192.168.100.10:3306 UDP
+[**] [1:200003:1] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-04:03:01.719712 10.193.218.13:44156 -> 192.168.100.40:8443 UDP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-07:54:01.719712 10.124.10.112:47858 -> 192.168.100.30:22 TCP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-03:46:01.719712 10.193.218.13:51070 -> 192.168.100.10:22 TCP
+[**] [1:500001:3] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-20:47:01.719712 203.0.113.169:38433 -> 192.168.100.20:80 TCP
+[**] [1:200003:4] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-02:32:01.719712 10.242.17.59:27780 -> 192.168.100.20:3389 TCP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-02:55:01.719712 10.12.181.66:61666 -> 192.168.100.20:8443 UDP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-08:31:01.719712 10.228.30.35:25649 -> 192.168.100.20:8080 UDP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 03/30/2026-19:38:01.719712 203.0.113.1:12309 -> 192.168.100.10:3306 TCP
+[**] [1:300004:4] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-06:29:01.719712 10.234.248.179:28731 -> 192.168.100.20:3389 TCP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-16:28:01.719712 10.186.223.234:39419 -> 192.168.100.40:8443 UDP
+[**] [1:100003:1] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-17:07:01.719712 10.70.148.211:36435 -> 192.168.100.30:80 TCP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-09:52:01.719712 203.0.113.1:12211 -> 192.168.100.30:22 UDP
+[**] [1:400002:3] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-23:21:01.719712 10.54.214.146:2427 -> 192.168.100.40:5432 TCP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-10:00:01.719712 10.124.10.112:20270 -> 192.168.100.40:443 TCP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-01:41:01.719712 203.0.113.24:39525 -> 192.168.100.10:80 TCP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-00:52:01.719712 10.249.41.173:33588 -> 192.168.100.40:3306 UDP
+[**] [1:500001:1] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-22:10:01.719712 10.55.190.133:35976 -> 192.168.100.40:3306 TCP
+[**] [1:100003:5] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-08:12:01.719712 10.242.17.59:11871 -> 192.168.100.20:22 UDP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-21:37:01.719712 10.249.41.173:42603 -> 192.168.100.20:5432 UDP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-20:50:01.719712 10.29.245.176:61227 -> 192.168.100.20:3389 TCP
+[**] [1:100003:2] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-15:46:01.719712 10.228.30.35:27000 -> 192.168.100.20:22 TCP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-01:26:01.719712 10.249.41.173:65358 -> 192.168.100.20:8080 UDP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/04/2026-13:28:01.719712 10.81.176.36:15938 -> 192.168.100.20:3306 UDP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-04:17:01.719712 10.22.13.175:30110 -> 192.168.100.20:53 TCP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-07:16:01.719712 203.0.113.116:23974 -> 192.168.100.1:53 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 03/30/2026-19:30:01.719712 10.12.50.1:47981 -> 192.168.100.20:80 UDP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-08:03:01.719712 10.193.218.13:22104 -> 192.168.100.20:25 UDP
+[**] [1:200002:5] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-04:22:01.719712 10.128.18.30:3016 -> 192.168.100.30:53 UDP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-01:16:01.719712 10.55.190.133:5057 -> 192.168.100.20:22 UDP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-19:41:01.719712 203.0.113.160:27794 -> 192.168.100.10:3306 TCP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-13:27:01.719712 203.0.113.138:60075 -> 192.168.100.1:80 TCP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-22:51:01.719712 10.235.202.183:40640 -> 192.168.100.20:443 TCP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-11:42:01.719712 203.0.113.45:51708 -> 192.168.100.10:8080 UDP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-22:01:01.719712 10.136.112.149:29286 -> 192.168.100.30:8443 UDP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-00:46:01.719712 10.124.10.112:28194 -> 192.168.100.1:22 TCP
+[**] [1:100001:5] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-22:52:01.719712 10.29.245.176:11805 -> 192.168.100.20:53 UDP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-20:56:01.719712 10.105.63.247:25074 -> 192.168.100.30:5432 TCP
+[**] [1:200003:1] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-23:33:01.719712 10.193.11.247:28684 -> 192.168.100.40:53 UDP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-05:30:01.719712 203.0.113.1:31193 -> 192.168.100.30:3389 TCP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-02:05:01.719712 10.55.190.133:44053 -> 192.168.100.20:22 TCP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-15:12:01.719712 10.241.212.90:3106 -> 192.168.100.30:3389 UDP
+[**] [1:500002:5] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/06/2026-12:05:01.719712 10.12.50.1:64174 -> 192.168.100.40:5432 TCP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-01:27:01.719712 10.70.148.211:35601 -> 192.168.100.20:3306 TCP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-04:22:01.719712 10.55.190.133:48056 -> 192.168.100.40:22 TCP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-21:20:01.719712 10.12.181.66:40966 -> 192.168.100.30:8080 TCP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-05:41:01.719712 203.0.113.160:57339 -> 192.168.100.30:22 UDP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-12:58:01.719712 10.124.10.112:21678 -> 192.168.100.40:8443 UDP
+[**] [1:200001:2] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-16:55:01.719712 10.82.179.221:35208 -> 192.168.100.30:8080 UDP
+[**] [1:200001:3] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-16:33:01.719712 10.4.53.202:5668 -> 192.168.100.20:8080 TCP
+[**] [1:200003:1] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-05:37:01.719712 10.12.181.66:42922 -> 192.168.100.30:3389 UDP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-01:51:01.719712 10.82.179.221:60225 -> 192.168.100.10:8080 UDP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-02:28:01.719712 203.0.113.126:58381 -> 192.168.100.30:80 TCP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-04:47:01.719712 10.12.181.66:46255 -> 192.168.100.10:22 TCP
+[**] [1:500002:2] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-23:26:01.719712 10.105.63.247:6918 -> 192.168.100.30:53 TCP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-11:54:01.719712 203.0.113.1:63929 -> 192.168.100.40:53 TCP
+[**] [1:200001:2] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-11:05:01.719712 10.22.13.175:54381 -> 192.168.100.20:22 TCP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-03:14:01.719712 203.0.113.90:5307 -> 192.168.100.10:25 TCP
+[**] [1:500001:1] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/01/2026-03:35:01.719712 10.147.123.208:11154 -> 192.168.100.40:3306 TCP
+[**] [1:200002:5] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-07:57:01.719712 10.54.214.146:19151 -> 192.168.100.30:8080 UDP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-01:46:01.719712 203.0.113.45:64646 -> 192.168.100.30:8443 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-08:20:01.719712 10.105.63.247:1069 -> 192.168.100.1:8080 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-04:24:01.719712 203.0.113.138:55465 -> 192.168.100.40:8443 TCP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-09:05:01.719712 203.0.113.138:47969 -> 192.168.100.10:8080 UDP
+[**] [1:300003:5] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-04:28:01.719712 10.70.148.211:37422 -> 192.168.100.30:3389 UDP
+[**] [1:300003:5] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-11:04:01.719712 10.212.110.162:45634 -> 192.168.100.10:8080 TCP
+[**] [1:200001:3] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-14:54:01.719712 10.12.181.66:52317 -> 192.168.100.10:80 TCP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-17:13:01.719712 10.29.245.176:40247 -> 192.168.100.10:3306 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-07:05:01.719712 10.241.212.90:15633 -> 192.168.100.30:80 UDP
+[**] [1:500001:1] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-05:15:01.719712 10.29.245.176:30405 -> 192.168.100.40:80 UDP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-14:05:01.719712 10.193.218.13:37157 -> 192.168.100.40:3306 UDP
+[**] [1:100003:5] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-03:00:01.719712 10.29.245.176:10285 -> 192.168.100.20:25 UDP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-22:16:01.719712 10.98.194.178:19716 -> 192.168.100.10:22 UDP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/30/2026-22:44:01.719712 10.241.212.90:13377 -> 192.168.100.40:53 UDP
+[**] [1:300004:4] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-17:15:01.719712 203.0.113.138:38143 -> 192.168.100.1:25 UDP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-03:46:01.719712 10.22.13.175:35298 -> 192.168.100.1:8080 TCP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/03/2026-20:43:01.719712 10.12.50.1:17140 -> 192.168.100.20:25 UDP
+[**] [1:500002:4] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-20:44:01.719712 203.0.113.138:45020 -> 192.168.100.1:80 UDP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-00:07:01.719712 10.125.117.195:6286 -> 192.168.100.1:8080 UDP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-13:25:01.719712 10.105.63.247:52118 -> 192.168.100.1:8080 TCP
+[**] [1:500001:4] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-20:06:01.719712 10.81.176.36:9137 -> 192.168.100.20:80 UDP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-02:59:01.719712 10.70.148.211:10055 -> 192.168.100.1:25 TCP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/01/2026-02:38:01.719712 10.228.30.35:34377 -> 192.168.100.30:80 TCP
+[**] [1:100003:2] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-20:02:01.719712 203.0.113.116:6260 -> 192.168.100.1:80 UDP
+[**] [1:300004:3] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-17:30:01.719712 203.0.113.126:37904 -> 192.168.100.20:8080 UDP
+[**] [1:500002:3] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-09:02:01.719712 203.0.113.116:40005 -> 192.168.100.20:5432 TCP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-11:37:01.719712 10.98.194.178:23042 -> 192.168.100.10:8080 TCP
+[**] [1:300003:4] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-21:56:01.719712 10.12.181.66:55665 -> 192.168.100.40:3389 TCP
+[**] [1:300004:4] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-09:16:01.719712 10.249.41.173:20409 -> 192.168.100.20:8443 UDP
+[**] [1:100003:3] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-11:33:01.719712 203.0.113.90:60151 -> 192.168.100.40:443 UDP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-15:35:01.719712 10.241.212.90:11534 -> 192.168.100.10:3306 UDP
+[**] [1:100003:5] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-21:45:01.719712 10.124.10.112:13623 -> 192.168.100.30:80 TCP
+[**] [1:300004:4] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-14:49:01.719712 10.105.63.247:9162 -> 192.168.100.1:25 TCP
+[**] [1:100001:5] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-07:31:01.719712 203.0.113.121:33935 -> 192.168.100.1:8443 UDP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-15:41:01.719712 203.0.113.126:31782 -> 192.168.100.1:3389 TCP
+[**] [1:200003:1] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-16:16:01.719712 10.234.248.179:26095 -> 192.168.100.1:22 TCP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/06/2026-11:55:01.719712 10.29.245.176:41470 -> 192.168.100.1:80 TCP
+[**] [1:500001:2] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-01:45:01.719712 203.0.113.160:19304 -> 192.168.100.40:53 TCP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-09:19:01.719712 10.54.214.146:59222 -> 192.168.100.40:443 TCP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-02:09:01.719712 10.82.179.221:14170 -> 192.168.100.10:25 UDP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-17:27:01.719712 203.0.113.1:58311 -> 192.168.100.30:53 TCP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-19:53:01.719712 203.0.113.24:54268 -> 192.168.100.30:80 UDP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-05:35:01.719712 10.128.18.30:16194 -> 192.168.100.20:3306 TCP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-08:26:01.719712 10.212.110.162:30487 -> 192.168.100.30:53 TCP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-01:34:01.719712 10.55.190.133:39156 -> 192.168.100.20:8080 TCP
+[**] [1:100002:5] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-23:40:01.719712 10.129.77.110:14794 -> 192.168.100.20:80 UDP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-14:57:01.719712 10.242.17.59:56023 -> 192.168.100.20:53 UDP
+[**] [1:100002:5] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-22:18:01.719712 203.0.113.169:22526 -> 192.168.100.1:5432 UDP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-23:59:01.719712 10.29.245.176:36520 -> 192.168.100.40:25 UDP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-01:56:01.719712 10.186.223.234:39390 -> 192.168.100.10:5432 UDP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/05/2026-18:29:01.719712 203.0.113.24:13836 -> 192.168.100.1:5432 TCP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-04:14:01.719712 10.124.10.112:25325 -> 192.168.100.1:3389 TCP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/30/2026-21:47:01.719712 10.125.117.195:49763 -> 192.168.100.1:53 TCP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-07:15:01.719712 10.234.248.179:47540 -> 192.168.100.1:5432 TCP
+[**] [1:200001:3] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-13:17:01.719712 10.4.53.202:17032 -> 192.168.100.40:25 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-02:04:01.719712 10.129.77.110:61770 -> 192.168.100.20:22 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-06:03:01.719712 10.241.212.90:10668 -> 192.168.100.1:8080 TCP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-03:57:01.719712 10.234.248.179:16879 -> 192.168.100.20:443 TCP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-10:42:01.719712 10.186.191.77:65422 -> 192.168.100.1:53 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-05:14:01.719712 10.154.86.20:31137 -> 192.168.100.10:22 TCP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/06/2026-12:20:01.719712 10.12.50.1:14636 -> 192.168.100.1:8443 UDP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-21:36:01.719712 203.0.113.45:64389 -> 192.168.100.1:8080 UDP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-04:52:01.719712 10.193.11.247:4319 -> 192.168.100.1:3306 TCP
+[**] [1:100003:3] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-16:25:01.719712 10.193.218.13:56857 -> 192.168.100.1:8080 UDP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/05/2026-09:45:01.719712 10.129.77.110:64076 -> 192.168.100.1:3389 UDP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-06:22:01.719712 10.81.176.36:46794 -> 192.168.100.40:443 UDP
+[**] [1:500002:4] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 03/30/2026-22:59:01.719712 10.81.176.36:41001 -> 192.168.100.20:5432 TCP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-07:19:01.719712 203.0.113.160:49451 -> 192.168.100.30:443 TCP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-07:10:01.719712 10.241.212.90:47165 -> 192.168.100.1:8443 TCP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-23:18:01.719712 203.0.113.160:50956 -> 192.168.100.40:3389 UDP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-14:16:01.719712 203.0.113.138:5733 -> 192.168.100.10:22 UDP
+[**] [1:100002:5] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-12:19:01.719712 10.98.194.178:27778 -> 192.168.100.40:25 TCP
+[**] [1:300004:3] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-10:08:01.719712 10.234.248.179:58118 -> 192.168.100.30:8443 UDP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-00:55:01.719712 10.12.181.66:54645 -> 192.168.100.20:22 TCP
+[**] [1:300001:5] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/01/2026-07:06:01.719712 10.136.112.149:65418 -> 192.168.100.40:8443 UDP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-15:00:01.719712 10.186.223.234:2305 -> 192.168.100.10:8443 UDP
+[**] [1:300001:1] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/06/2026-05:15:01.719712 10.234.248.179:50686 -> 192.168.100.20:3389 UDP
+[**] [1:100003:2] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-14:09:01.719712 10.228.30.35:51062 -> 192.168.100.20:3306 UDP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/04/2026-01:39:01.719712 10.82.179.221:59552 -> 192.168.100.40:3389 TCP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-14:02:01.719712 10.54.214.146:53315 -> 192.168.100.30:80 TCP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/30/2026-20:36:01.719712 10.81.176.36:11823 -> 192.168.100.20:5432 TCP
+[**] [1:500002:2] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-19:49:01.719712 10.228.30.35:61388 -> 192.168.100.40:443 UDP
+[**] [1:200002:1] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-21:13:01.719712 203.0.113.116:7535 -> 192.168.100.1:80 TCP
+[**] [1:300003:2] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-22:45:01.719712 10.234.248.179:11998 -> 192.168.100.20:3389 UDP
+[**] [1:500002:5] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-07:59:01.719712 10.12.50.1:33170 -> 192.168.100.10:80 TCP
+[**] [1:100001:4] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-09:55:01.719712 10.235.202.183:47956 -> 192.168.100.1:8443 UDP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-22:24:01.719712 10.54.214.146:17961 -> 192.168.100.1:443 TCP
+[**] [1:100001:3] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-13:48:01.719712 203.0.113.90:32039 -> 192.168.100.10:80 TCP
+[**] [1:400001:3] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-19:32:01.719712 203.0.113.160:17441 -> 192.168.100.40:5432 UDP
+[**] [1:500001:4] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-23:29:01.719712 10.241.212.90:7095 -> 192.168.100.20:8443 TCP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-05:05:01.719712 10.12.181.66:11374 -> 192.168.100.20:53 TCP
+[**] [1:500002:5] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-15:34:01.719712 203.0.113.90:4553 -> 192.168.100.10:3306 UDP
+[**] [1:100003:1] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-23:16:01.719712 203.0.113.138:17374 -> 192.168.100.30:25 UDP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-12:03:01.719712 10.4.53.202:54946 -> 192.168.100.1:8443 UDP
+[**] [1:200002:5] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-05:39:01.719712 10.249.41.173:44341 -> 192.168.100.1:8443 TCP
+[**] [1:400001:3] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-21:43:01.719712 10.212.110.162:21565 -> 192.168.100.30:3389 TCP
+[**] [1:200003:4] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-18:10:01.719712 203.0.113.116:54551 -> 192.168.100.40:8080 TCP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/30/2026-22:02:01.719712 10.54.214.146:15439 -> 192.168.100.20:53 UDP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-14:15:01.719712 10.22.13.175:57854 -> 192.168.100.10:5432 TCP
+[**] [1:300003:5] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-03:40:01.719712 203.0.113.24:41875 -> 192.168.100.40:80 TCP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-19:04:01.719712 10.242.17.59:17096 -> 192.168.100.40:8443 TCP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-15:46:01.719712 10.241.212.90:33227 -> 192.168.100.10:8080 TCP
+[**] [1:300001:1] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/05/2026-02:14:01.719712 10.22.13.175:18545 -> 192.168.100.1:8080 UDP
+[**] [1:300004:3] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/30/2026-20:29:01.719712 10.29.245.176:24812 -> 192.168.100.40:80 TCP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-21:44:01.719712 203.0.113.121:39829 -> 192.168.100.30:53 TCP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 03/30/2026-21:37:01.719712 203.0.113.138:52149 -> 192.168.100.30:80 UDP
+[**] [1:200001:3] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-07:36:01.719712 10.241.212.90:37389 -> 192.168.100.40:8443 UDP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-00:39:01.719712 10.193.11.247:56629 -> 192.168.100.40:5432 UDP
+[**] [1:300001:5] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/30/2026-23:24:01.719712 10.193.218.13:42262 -> 192.168.100.1:25 UDP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-05:40:01.719712 203.0.113.1:38562 -> 192.168.100.40:3389 UDP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-21:38:01.719712 203.0.113.24:28428 -> 192.168.100.1:25 TCP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-19:59:01.719712 203.0.113.138:24865 -> 192.168.100.1:22 TCP
+[**] [1:100003:5] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-15:03:01.719712 10.55.190.133:31119 -> 192.168.100.40:80 UDP
+[**] [1:200001:3] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-06:56:01.719712 10.105.63.247:37627 -> 192.168.100.10:22 UDP
+[**] [1:100002:5] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-08:11:01.719712 10.55.190.133:60479 -> 192.168.100.40:5432 UDP
+[**] [1:100003:2] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-07:27:01.719712 10.154.86.20:5519 -> 192.168.100.1:3389 UDP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/02/2026-03:07:01.719712 10.98.194.178:15287 -> 192.168.100.40:3389 TCP
+[**] [1:400001:2] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-02:11:01.719712 10.186.223.234:38029 -> 192.168.100.30:53 TCP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-18:27:01.719712 10.242.17.59:63519 -> 192.168.100.1:3389 UDP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-13:10:01.719712 203.0.113.169:1623 -> 192.168.100.10:8443 UDP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-17:02:01.719712 10.12.181.66:37195 -> 192.168.100.40:5432 TCP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-01:55:01.719712 10.4.53.202:60280 -> 192.168.100.20:53 UDP
+[**] [1:100003:5] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-19:45:01.719712 10.147.123.208:64487 -> 192.168.100.30:25 UDP
+[**] [1:100001:3] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-05:04:01.719712 10.81.176.36:43915 -> 192.168.100.40:5432 UDP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-07:05:01.719712 10.12.50.1:38655 -> 192.168.100.1:3389 TCP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-04:23:01.719712 203.0.113.169:34544 -> 192.168.100.1:8080 UDP
+[**] [1:200001:3] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-19:44:01.719712 203.0.113.121:20112 -> 192.168.100.1:25 UDP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/30/2026-19:06:01.719712 203.0.113.160:5247 -> 192.168.100.1:5432 UDP
+[**] [1:500002:5] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/06/2026-00:19:01.719712 10.193.218.13:33845 -> 192.168.100.30:3389 TCP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-00:52:01.719712 10.105.63.247:40849 -> 192.168.100.1:80 TCP
+[**] [1:200002:1] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-00:25:01.719712 10.55.190.133:2066 -> 192.168.100.20:25 UDP
+[**] [1:200002:1] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-09:42:01.719712 203.0.113.45:50938 -> 192.168.100.20:53 TCP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-22:51:01.719712 10.186.223.234:37264 -> 192.168.100.40:5432 TCP
+[**] [1:300004:3] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-02:12:01.719712 10.105.63.247:52233 -> 192.168.100.20:443 TCP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-03:54:01.719712 10.22.13.175:55471 -> 192.168.100.10:8443 UDP
+[**] [1:300003:4] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-16:06:01.719712 10.241.212.90:28512 -> 192.168.100.20:3389 UDP
+[**] [1:300003:5] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-03:03:01.719712 10.241.212.90:50310 -> 192.168.100.40:8443 UDP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-19:40:01.719712 10.12.50.1:15729 -> 192.168.100.40:8443 TCP
+[**] [1:400002:4] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 03/30/2026-23:00:01.719712 10.98.194.178:61625 -> 192.168.100.1:22 TCP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-17:40:01.719712 10.241.212.90:17252 -> 192.168.100.40:8080 TCP
+[**] [1:100001:4] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-09:34:01.719712 10.29.245.176:25948 -> 192.168.100.1:53 TCP
+[**] [1:300003:5] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-05:13:01.719712 10.234.248.179:7416 -> 192.168.100.20:8080 UDP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-11:32:01.719712 10.128.18.30:49050 -> 192.168.100.20:3389 UDP
+[**] [1:300003:5] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-20:45:01.719712 203.0.113.160:53819 -> 192.168.100.30:80 TCP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-12:40:01.719712 10.29.245.176:19982 -> 192.168.100.40:3306 TCP
+[**] [1:100001:2] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-02:26:01.719712 10.186.223.234:5776 -> 192.168.100.40:22 TCP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/06/2026-07:34:01.719712 10.129.77.110:42420 -> 192.168.100.10:3389 UDP
+[**] [1:500002:3] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-14:01:01.719712 10.242.17.59:20297 -> 192.168.100.40:22 UDP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-00:36:01.719712 10.242.17.59:21324 -> 192.168.100.1:53 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-16:02:01.719712 10.154.86.20:54084 -> 192.168.100.30:8443 UDP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-02:01:01.719712 203.0.113.116:14211 -> 192.168.100.1:3389 TCP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-19:23:01.719712 10.193.218.13:49213 -> 192.168.100.30:25 TCP
+[**] [1:500001:3] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-15:38:01.719712 203.0.113.45:3115 -> 192.168.100.1:80 TCP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/01/2026-23:51:01.719712 10.105.63.247:55704 -> 192.168.100.20:25 UDP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-23:02:01.719712 10.128.18.30:55734 -> 192.168.100.40:25 TCP
+[**] [1:300003:2] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-03:02:01.719712 10.82.179.221:65101 -> 192.168.100.40:8080 TCP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-12:29:01.719712 10.129.77.110:15958 -> 192.168.100.20:3306 TCP
+[**] [1:400001:2] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-21:09:01.719712 203.0.113.160:9212 -> 192.168.100.40:8080 UDP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-03:28:01.719712 203.0.113.116:36428 -> 192.168.100.20:5432 UDP
+[**] [1:500002:5] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-11:18:01.719712 10.193.11.247:33462 -> 192.168.100.30:25 UDP
+[**] [1:200002:5] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-18:26:01.719712 10.22.13.175:40763 -> 192.168.100.1:3306 UDP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-13:45:01.719712 203.0.113.116:40175 -> 192.168.100.1:8443 UDP
+[**] [1:500002:2] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-03:33:01.719712 10.242.17.59:11689 -> 192.168.100.20:22 TCP
+[**] [1:100002:5] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-01:08:01.719712 203.0.113.169:21436 -> 192.168.100.10:25 TCP
+[**] [1:200002:5] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-12:24:01.719712 203.0.113.169:42674 -> 192.168.100.10:8080 UDP
+[**] [1:500002:3] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-07:57:01.719712 10.98.194.178:14307 -> 192.168.100.1:22 TCP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-20:30:01.719712 10.193.218.13:47144 -> 192.168.100.10:8443 TCP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-02:19:01.719712 203.0.113.90:49660 -> 192.168.100.10:80 UDP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-11:00:01.719712 203.0.113.121:27977 -> 192.168.100.10:3389 UDP
+[**] [1:400002:4] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-14:53:01.719712 10.147.123.208:6681 -> 192.168.100.20:25 UDP
+[**] [1:500001:1] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-21:35:01.719712 10.125.117.195:26009 -> 192.168.100.30:80 TCP
+[**] [1:400001:3] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-06:18:01.719712 10.81.176.36:60290 -> 192.168.100.30:25 TCP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-02:41:01.719712 10.249.41.173:35548 -> 192.168.100.40:443 UDP
+[**] [1:400002:3] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-09:23:01.719712 10.234.248.179:49590 -> 192.168.100.1:3306 UDP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-12:41:01.719712 203.0.113.138:42585 -> 192.168.100.10:443 UDP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-02:54:01.719712 10.128.18.30:41501 -> 192.168.100.1:8443 UDP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-03:04:01.719712 10.54.214.146:63109 -> 192.168.100.1:25 TCP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 03/30/2026-22:29:01.719712 10.128.18.30:56200 -> 192.168.100.10:8443 UDP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-22:38:01.719712 10.22.13.175:40277 -> 192.168.100.10:80 UDP
+[**] [1:500001:1] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/01/2026-12:42:01.719712 10.136.112.149:50670 -> 192.168.100.40:3306 UDP
+[**] [1:400002:1] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-01:43:01.719712 203.0.113.169:30174 -> 192.168.100.10:3389 TCP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-15:41:01.719712 10.186.223.234:56286 -> 192.168.100.10:8443 UDP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-01:12:01.719712 10.22.13.175:51792 -> 192.168.100.40:3389 TCP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-20:55:01.719712 203.0.113.138:49914 -> 192.168.100.10:3306 UDP
+[**] [1:500002:2] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-07:59:01.719712 203.0.113.116:27023 -> 192.168.100.30:53 TCP
+[**] [1:500001:4] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-16:18:01.719712 10.147.123.208:58917 -> 192.168.100.10:53 TCP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-05:30:01.719712 203.0.113.160:17454 -> 192.168.100.40:22 TCP
+[**] [1:400002:4] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-18:50:01.719712 203.0.113.169:36275 -> 192.168.100.40:8080 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-20:46:01.719712 10.55.190.133:10545 -> 192.168.100.30:8443 UDP
+[**] [1:300001:5] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/01/2026-11:07:01.719712 203.0.113.1:28237 -> 192.168.100.20:25 UDP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-20:10:01.719712 10.4.53.202:20406 -> 192.168.100.40:3306 TCP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-06:22:01.719712 10.234.248.179:8836 -> 192.168.100.20:80 UDP
+[**] [1:200001:2] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-09:23:01.719712 10.12.50.1:47960 -> 192.168.100.1:22 UDP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-01:42:01.719712 203.0.113.160:33051 -> 192.168.100.10:80 UDP
+[**] [1:200002:1] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-17:10:01.719712 203.0.113.24:26446 -> 192.168.100.10:53 UDP
+[**] [1:400001:2] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-23:08:01.719712 10.125.117.195:55456 -> 192.168.100.40:3389 TCP
+[**] [1:500002:2] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/01/2026-22:02:01.719712 10.147.123.208:30100 -> 192.168.100.30:80 UDP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-07:30:01.719712 10.228.30.35:51447 -> 192.168.100.30:80 TCP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-17:32:01.719712 10.154.86.20:64825 -> 192.168.100.30:22 UDP
+[**] [1:400002:3] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-02:43:01.719712 10.82.179.221:27477 -> 192.168.100.10:3389 UDP
+[**] [1:300001:1] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/03/2026-07:38:01.719712 10.241.212.90:26920 -> 192.168.100.1:443 UDP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-04:51:01.719712 10.124.10.112:60422 -> 192.168.100.30:8080 UDP
+[**] [1:300003:4] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-10:27:01.719712 10.70.148.211:10966 -> 192.168.100.30:8443 UDP
+[**] [1:500001:3] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-12:26:01.719712 203.0.113.90:4018 -> 192.168.100.20:8080 TCP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 03/30/2026-22:20:01.719712 10.129.77.110:42982 -> 192.168.100.10:443 TCP
+[**] [1:400002:4] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-08:34:01.719712 10.98.194.178:31598 -> 192.168.100.20:5432 TCP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-13:17:01.719712 203.0.113.24:36602 -> 192.168.100.10:80 TCP
+[**] [1:100001:4] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-15:12:01.719712 10.212.110.162:46233 -> 192.168.100.20:53 UDP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 03/30/2026-19:55:01.719712 10.186.223.234:43183 -> 192.168.100.30:443 TCP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-18:51:01.719712 10.234.248.179:52921 -> 192.168.100.40:8443 TCP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-23:31:01.719712 203.0.113.1:56301 -> 192.168.100.40:443 UDP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-23:51:01.719712 10.186.191.77:20783 -> 192.168.100.20:53 UDP
+[**] [1:300004:3] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-05:31:01.719712 10.234.248.179:53175 -> 192.168.100.40:5432 TCP
+[**] [1:300003:2] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-00:23:01.719712 10.82.179.221:34408 -> 192.168.100.30:3389 UDP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-11:38:01.719712 10.105.63.247:45594 -> 192.168.100.40:8443 TCP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/03/2026-10:27:01.719712 203.0.113.90:37594 -> 192.168.100.1:443 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-21:58:01.719712 10.249.41.173:22021 -> 192.168.100.30:22 UDP
+[**] [1:100002:5] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-06:59:01.719712 10.234.248.179:47142 -> 192.168.100.1:53 UDP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-12:20:01.719712 10.70.148.211:24217 -> 192.168.100.40:25 TCP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-05:34:01.719712 10.54.214.146:21480 -> 192.168.100.30:443 TCP
+[**] [1:300004:3] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-18:17:01.719712 10.147.123.208:60972 -> 192.168.100.20:22 TCP
+[**] [1:200001:3] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-04:32:01.719712 10.29.245.176:63756 -> 192.168.100.40:25 UDP
+[**] [1:500002:4] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-09:35:01.719712 10.186.191.77:54548 -> 192.168.100.20:8080 UDP
+[**] [1:300004:3] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-03:28:01.719712 10.22.13.175:41059 -> 192.168.100.10:8443 TCP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-03:35:01.719712 10.55.190.133:41021 -> 192.168.100.40:443 UDP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/01/2026-02:37:01.719712 10.54.214.146:33123 -> 192.168.100.30:8443 TCP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-21:33:01.719712 10.12.50.1:24804 -> 192.168.100.1:8080 UDP
+[**] [1:200001:3] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-03:13:01.719712 203.0.113.169:41138 -> 192.168.100.10:8080 TCP
+[**] [1:200003:1] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-07:27:01.719712 10.12.181.66:10855 -> 192.168.100.30:25 UDP
+[**] [1:200002:1] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 03/30/2026-19:42:01.719712 10.70.148.211:33904 -> 192.168.100.10:80 TCP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-00:03:01.719712 10.186.191.77:42698 -> 192.168.100.1:3306 UDP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/30/2026-22:52:01.719712 10.242.17.59:27870 -> 192.168.100.20:22 UDP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-23:17:01.719712 10.70.148.211:57253 -> 192.168.100.40:3306 UDP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-23:03:01.719712 10.212.110.162:49432 -> 192.168.100.40:443 UDP
+[**] [1:500002:4] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-10:40:01.719712 10.235.202.183:57639 -> 192.168.100.1:80 UDP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-12:40:01.719712 10.12.181.66:31419 -> 192.168.100.30:5432 TCP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-19:16:01.719712 10.228.30.35:47446 -> 192.168.100.30:25 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-01:36:01.719712 10.54.214.146:38972 -> 192.168.100.40:8443 TCP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/31/2026-05:09:01.719712 203.0.113.121:39101 -> 192.168.100.10:8080 TCP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-09:31:01.719712 10.54.214.146:51645 -> 192.168.100.40:8080 UDP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-10:08:01.719712 203.0.113.126:62751 -> 192.168.100.40:80 UDP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-11:42:01.719712 203.0.113.160:16274 -> 192.168.100.10:80 TCP
+[**] [1:400002:1] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-20:36:01.719712 10.249.41.173:9389 -> 192.168.100.30:22 UDP
+[**] [1:500002:4] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-04:56:01.719712 10.154.86.20:47668 -> 192.168.100.10:53 TCP
+[**] [1:500001:2] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-05:47:01.719712 10.128.18.30:45415 -> 192.168.100.40:8080 UDP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-16:39:01.719712 203.0.113.169:4483 -> 192.168.100.40:8443 UDP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-23:39:01.719712 10.54.214.146:14129 -> 192.168.100.20:443 UDP
+[**] [1:100003:3] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-08:34:01.719712 10.212.110.162:9689 -> 192.168.100.30:25 UDP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-02:00:01.719712 10.193.11.247:58812 -> 192.168.100.30:22 TCP
+[**] [1:500002:2] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-15:15:01.719712 10.12.50.1:43200 -> 192.168.100.40:8443 TCP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-02:18:01.719712 10.129.77.110:62960 -> 192.168.100.30:8443 UDP
+[**] [1:200002:3] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-22:20:01.719712 10.22.13.175:9507 -> 192.168.100.40:80 UDP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-22:29:01.719712 203.0.113.24:14616 -> 192.168.100.10:443 TCP
+[**] [1:400002:4] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-05:48:01.719712 10.22.13.175:60839 -> 192.168.100.10:5432 UDP
+[**] [1:100001:4] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-09:56:01.719712 203.0.113.138:52710 -> 192.168.100.20:53 UDP
+[**] [1:400002:1] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-23:13:01.719712 10.12.181.66:2429 -> 192.168.100.10:80 TCP
+[**] [1:500002:4] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/06/2026-07:04:01.719712 10.128.18.30:27534 -> 192.168.100.20:8080 UDP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-08:46:01.719712 10.186.191.77:47071 -> 192.168.100.1:3389 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-06:33:01.719712 10.186.191.77:9769 -> 192.168.100.1:25 UDP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-00:49:01.719712 10.234.248.179:24460 -> 192.168.100.1:25 TCP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-01:28:01.719712 203.0.113.126:12992 -> 192.168.100.40:80 UDP
+[**] [1:400002:3] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-00:54:01.719712 10.193.218.13:12166 -> 192.168.100.20:22 TCP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-15:37:01.719712 10.154.86.20:29232 -> 192.168.100.1:5432 TCP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-01:25:01.719712 10.129.77.110:31102 -> 192.168.100.1:22 UDP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-08:28:01.719712 203.0.113.160:58862 -> 192.168.100.30:80 UDP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-05:29:01.719712 203.0.113.116:1871 -> 192.168.100.1:5432 TCP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-21:52:01.719712 10.234.248.179:6185 -> 192.168.100.1:3306 UDP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-05:48:01.719712 10.242.17.59:53570 -> 192.168.100.10:22 TCP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/30/2026-21:59:01.719712 10.228.30.35:30147 -> 192.168.100.10:22 UDP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-07:53:01.719712 10.154.86.20:9064 -> 192.168.100.30:8080 UDP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-23:14:01.719712 10.128.18.30:47846 -> 192.168.100.20:25 UDP
+[**] [1:200002:3] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-17:40:01.719712 10.212.110.162:50007 -> 192.168.100.1:22 TCP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-23:47:01.719712 203.0.113.138:30454 -> 192.168.100.40:80 TCP
+[**] [1:200002:1] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-15:51:01.719712 203.0.113.169:24046 -> 192.168.100.1:8443 TCP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-01:24:01.719712 10.186.223.234:30814 -> 192.168.100.40:80 UDP
+[**] [1:400001:3] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-16:57:01.719712 10.147.123.208:46645 -> 192.168.100.1:443 UDP
+[**] [1:300004:4] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/30/2026-19:06:01.719712 203.0.113.45:7793 -> 192.168.100.1:22 UDP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/01/2026-17:56:01.719712 203.0.113.121:25770 -> 192.168.100.10:3306 TCP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-15:36:01.719712 203.0.113.116:33611 -> 192.168.100.20:8443 UDP
+[**] [1:300003:4] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-22:10:01.719712 10.124.10.112:9417 -> 192.168.100.20:25 UDP
+[**] [1:100001:4] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-16:41:01.719712 10.12.50.1:40819 -> 192.168.100.20:3389 UDP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-22:22:01.719712 10.128.18.30:1096 -> 192.168.100.30:8080 UDP
+[**] [1:300003:5] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-19:41:01.719712 10.98.194.178:36366 -> 192.168.100.30:22 UDP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-16:33:01.719712 203.0.113.126:21400 -> 192.168.100.40:53 TCP
+[**] [1:300001:5] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/02/2026-20:14:01.719712 203.0.113.126:12652 -> 192.168.100.30:22 UDP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-02:15:01.719712 10.70.148.211:8249 -> 192.168.100.1:3306 TCP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-18:55:01.719712 10.54.214.146:61793 -> 192.168.100.10:3389 TCP
+[**] [1:400002:1] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-16:05:01.719712 10.22.13.175:8535 -> 192.168.100.1:80 TCP
+[**] [1:400002:3] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-12:02:01.719712 10.136.112.149:44954 -> 192.168.100.20:80 TCP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-17:53:01.719712 203.0.113.90:2437 -> 192.168.100.40:80 UDP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-10:59:01.719712 203.0.113.169:4432 -> 192.168.100.40:25 TCP
+[**] [1:200002:1] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-02:21:01.719712 10.242.17.59:43019 -> 192.168.100.40:8443 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-20:19:01.719712 10.125.117.195:17173 -> 192.168.100.30:443 UDP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-10:27:01.719712 203.0.113.160:25022 -> 192.168.100.40:5432 UDP
+[**] [1:100003:2] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 03/30/2026-20:54:01.719712 203.0.113.1:58894 -> 192.168.100.40:8443 TCP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-18:31:01.719712 10.4.53.202:37706 -> 192.168.100.1:80 UDP
+[**] [1:100001:3] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-16:59:01.719712 10.4.53.202:25550 -> 192.168.100.20:8080 UDP
+[**] [1:300001:5] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/01/2026-03:48:01.719712 10.242.17.59:57592 -> 192.168.100.20:443 TCP
+[**] [1:200003:4] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-21:17:01.719712 10.193.218.13:21516 -> 192.168.100.1:3306 UDP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-05:25:01.719712 10.54.214.146:42287 -> 192.168.100.20:53 UDP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-16:49:01.719712 10.29.245.176:28227 -> 192.168.100.1:3306 TCP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-06:48:01.719712 10.98.194.178:45442 -> 192.168.100.10:8443 UDP
+[**] [1:200003:4] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-08:53:01.719712 203.0.113.24:19436 -> 192.168.100.30:22 TCP
+[**] [1:200001:2] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-14:50:01.719712 203.0.113.121:36577 -> 192.168.100.1:3306 TCP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-15:27:01.719712 203.0.113.126:61429 -> 192.168.100.20:80 TCP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-04:26:01.719712 10.241.212.90:5734 -> 192.168.100.30:22 TCP
+[**] [1:100003:3] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-02:58:01.719712 203.0.113.24:53292 -> 192.168.100.10:25 TCP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-07:38:01.719712 10.128.18.30:61009 -> 192.168.100.20:25 TCP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-00:13:01.719712 10.147.123.208:45852 -> 192.168.100.1:8080 TCP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-16:51:01.719712 10.82.179.221:21292 -> 192.168.100.20:3306 UDP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-15:19:01.719712 10.22.13.175:21846 -> 192.168.100.1:443 UDP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-13:50:01.719712 10.228.30.35:50032 -> 192.168.100.40:443 UDP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-04:18:01.719712 10.12.50.1:60573 -> 192.168.100.20:443 TCP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-09:57:01.719712 203.0.113.45:35363 -> 192.168.100.30:5432 UDP
+[**] [1:100003:1] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-12:22:01.719712 10.12.181.66:5619 -> 192.168.100.10:22 UDP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-16:15:01.719712 10.105.63.247:62304 -> 192.168.100.10:8443 TCP
+[**] [1:300004:3] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-13:30:01.719712 203.0.113.1:53523 -> 192.168.100.40:5432 TCP
+[**] [1:500001:3] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-11:25:01.719712 10.129.77.110:29828 -> 192.168.100.10:53 UDP
+[**] [1:500001:2] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-06:07:01.719712 203.0.113.138:43682 -> 192.168.100.1:443 TCP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-03:42:01.719712 10.54.214.146:29304 -> 192.168.100.10:8080 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-03:54:01.719712 203.0.113.160:39331 -> 192.168.100.30:3306 UDP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-02:19:01.719712 10.12.181.66:32033 -> 192.168.100.40:22 TCP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-11:44:01.719712 203.0.113.126:25138 -> 192.168.100.10:443 UDP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-07:00:01.719712 10.249.41.173:15008 -> 192.168.100.30:8443 UDP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-07:53:01.719712 203.0.113.121:64345 -> 192.168.100.20:3389 UDP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-14:20:01.719712 10.125.117.195:18143 -> 192.168.100.30:80 UDP
+[**] [1:400001:2] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-07:09:01.719712 203.0.113.126:20745 -> 192.168.100.40:80 TCP
+[**] [1:100003:2] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-17:55:01.719712 203.0.113.126:47905 -> 192.168.100.30:80 UDP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-08:03:01.719712 10.55.190.133:36323 -> 192.168.100.20:443 TCP
+[**] [1:500001:2] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-12:11:01.719712 10.125.117.195:56481 -> 192.168.100.40:8080 UDP
+[**] [1:100001:3] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-22:22:01.719712 10.235.202.183:57443 -> 192.168.100.10:8443 UDP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-08:00:01.719712 10.241.212.90:56388 -> 192.168.100.1:3389 TCP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/01/2026-18:52:01.719712 10.186.223.234:45422 -> 192.168.100.40:8080 TCP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-17:10:01.719712 10.193.218.13:13240 -> 192.168.100.30:80 UDP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-16:30:01.719712 203.0.113.24:34308 -> 192.168.100.30:8080 TCP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-02:41:01.719712 203.0.113.116:7004 -> 192.168.100.30:3389 TCP
+[**] [1:200003:4] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-08:36:01.719712 10.212.110.162:6856 -> 192.168.100.10:53 UDP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-06:19:01.719712 10.12.181.66:61928 -> 192.168.100.10:3306 TCP
+[**] [1:300003:4] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-12:26:01.719712 10.98.194.178:58330 -> 192.168.100.20:443 TCP
+[**] [1:300004:5] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-04:33:01.719712 10.242.17.59:5309 -> 192.168.100.30:80 TCP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-08:57:01.719712 203.0.113.169:48016 -> 192.168.100.10:8080 TCP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-04:53:01.719712 10.105.63.247:1916 -> 192.168.100.10:5432 TCP
+[**] [1:200003:4] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-22:51:01.719712 10.55.190.133:34854 -> 192.168.100.1:25 UDP
+[**] [1:500002:5] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-20:17:01.719712 10.82.179.221:61589 -> 192.168.100.20:443 UDP
+[**] [1:500001:4] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/06/2026-07:10:01.719712 203.0.113.121:5928 -> 192.168.100.20:8443 TCP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/30/2026-21:03:01.719712 10.125.117.195:40330 -> 192.168.100.1:3389 UDP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/04/2026-03:14:01.719712 10.81.176.36:48341 -> 192.168.100.30:22 UDP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-22:31:01.719712 10.98.194.178:55828 -> 192.168.100.30:3306 TCP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-13:01:01.719712 10.128.18.30:16324 -> 192.168.100.30:3389 TCP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-08:18:01.719712 203.0.113.138:10473 -> 192.168.100.30:443 UDP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/02/2026-09:33:01.719712 10.124.10.112:6585 -> 192.168.100.40:5432 TCP
+[**] [1:300001:1] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/01/2026-22:48:01.719712 10.186.191.77:13845 -> 192.168.100.30:22 UDP
+[**] [1:100003:3] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-21:20:01.719712 10.234.248.179:36296 -> 192.168.100.40:5432 UDP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-13:43:01.719712 10.55.190.133:11701 -> 192.168.100.30:5432 TCP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-15:00:01.719712 203.0.113.1:34917 -> 192.168.100.40:22 UDP
+[**] [1:200002:3] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-20:47:01.719712 10.22.13.175:45640 -> 192.168.100.40:8080 UDP
+[**] [1:300001:1] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/02/2026-12:52:01.719712 203.0.113.160:21209 -> 192.168.100.20:3389 TCP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-05:50:01.719712 10.228.30.35:26763 -> 192.168.100.30:22 TCP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-12:22:01.719712 203.0.113.121:53699 -> 192.168.100.20:80 TCP
+[**] [1:500002:4] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-19:24:01.719712 10.249.41.173:30828 -> 192.168.100.30:53 UDP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-11:11:01.719712 10.4.53.202:11301 -> 192.168.100.1:3306 UDP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-07:40:01.719712 10.186.191.77:30191 -> 192.168.100.1:80 UDP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-13:06:01.719712 10.29.245.176:46573 -> 192.168.100.1:8443 UDP
+[**] [1:500002:3] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-08:41:01.719712 10.128.18.30:57868 -> 192.168.100.20:443 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-21:21:01.719712 203.0.113.45:30364 -> 192.168.100.10:8443 UDP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-10:12:01.719712 10.193.218.13:37251 -> 192.168.100.1:8443 TCP
+[**] [1:500002:5] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-18:57:01.719712 10.82.179.221:63188 -> 192.168.100.10:8080 TCP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/06/2026-11:06:01.719712 10.241.212.90:29686 -> 192.168.100.20:443 UDP
+[**] [1:300003:2] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-21:32:01.719712 10.125.117.195:23898 -> 192.168.100.1:22 TCP
+[**] [1:200001:3] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-07:20:01.719712 10.125.117.195:30559 -> 192.168.100.40:443 TCP
+[**] [1:300003:2] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-18:45:01.719712 203.0.113.1:45440 -> 192.168.100.30:53 UDP
+[**] [1:200002:5] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-11:04:01.719712 10.249.41.173:58314 -> 192.168.100.1:25 TCP
+[**] [1:100003:3] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-05:39:01.719712 10.70.148.211:29894 -> 192.168.100.30:5432 UDP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-13:36:01.719712 10.29.245.176:54442 -> 192.168.100.40:53 TCP
+[**] [1:500001:3] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-05:05:01.719712 10.98.194.178:63102 -> 192.168.100.10:25 UDP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-23:36:01.719712 10.12.181.66:11202 -> 192.168.100.20:8443 TCP
+[**] [1:200001:2] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-19:05:01.719712 10.29.245.176:28540 -> 192.168.100.1:53 TCP
+[**] [1:400002:3] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-16:51:01.719712 203.0.113.138:33665 -> 192.168.100.20:443 TCP
+[**] [1:500002:2] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-19:10:01.719712 203.0.113.160:20055 -> 192.168.100.1:5432 TCP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-21:47:01.719712 10.98.194.178:59560 -> 192.168.100.1:3306 TCP
+[**] [1:200003:4] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-06:49:01.719712 10.186.223.234:52284 -> 192.168.100.10:5432 TCP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-19:45:01.719712 203.0.113.121:54335 -> 192.168.100.40:3389 TCP
+[**] [1:300001:1] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/01/2026-17:53:01.719712 203.0.113.1:59093 -> 192.168.100.10:3306 UDP
+[**] [1:300003:2] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-06:55:01.719712 10.193.11.247:30069 -> 192.168.100.40:25 UDP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-18:36:01.719712 10.193.11.247:31590 -> 192.168.100.40:25 UDP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-22:50:01.719712 10.147.123.208:54023 -> 192.168.100.20:8443 UDP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/30/2026-22:00:01.719712 203.0.113.126:12721 -> 192.168.100.20:53 TCP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/06/2026-07:05:01.719712 10.128.18.30:7288 -> 192.168.100.1:8443 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-01:06:01.719712 10.54.214.146:47197 -> 192.168.100.30:8443 UDP
+[**] [1:100001:4] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-22:08:01.719712 203.0.113.45:60634 -> 192.168.100.10:8443 UDP
+[**] [1:300003:1] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-09:41:01.719712 203.0.113.90:32985 -> 192.168.100.30:8080 TCP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/06/2026-05:31:01.719712 10.29.245.176:49637 -> 192.168.100.10:80 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-18:41:01.719712 10.105.63.247:14407 -> 192.168.100.10:53 TCP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-14:12:01.719712 10.70.148.211:55378 -> 192.168.100.20:3306 TCP
+[**] [1:200003:4] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-04:19:01.719712 10.242.17.59:2519 -> 192.168.100.10:3306 UDP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-07:54:01.719712 10.22.13.175:62760 -> 192.168.100.10:8080 TCP
+[**] [1:500002:4] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/06/2026-15:30:01.719712 203.0.113.1:18369 -> 192.168.100.40:80 UDP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-18:07:01.719712 10.154.86.20:13165 -> 192.168.100.1:5432 TCP
+[**] [1:500001:4] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 03/30/2026-19:34:01.719712 203.0.113.116:35136 -> 192.168.100.10:443 UDP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/31/2026-20:00:01.719712 203.0.113.1:44784 -> 192.168.100.40:80 TCP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-21:25:01.719712 10.128.18.30:7081 -> 192.168.100.10:443 UDP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-12:00:01.719712 10.147.123.208:64197 -> 192.168.100.20:25 UDP
+[**] [1:100003:5] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-10:53:01.719712 10.241.212.90:51792 -> 192.168.100.40:3389 UDP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/02/2026-01:43:01.719712 10.242.17.59:11664 -> 192.168.100.10:5432 TCP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-09:51:01.719712 10.12.50.1:44296 -> 192.168.100.1:8080 UDP
+[**] [1:500001:4] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-19:13:01.719712 10.186.191.77:52486 -> 192.168.100.20:8080 TCP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-10:30:01.719712 10.81.176.36:42650 -> 192.168.100.1:25 TCP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-14:38:01.719712 203.0.113.169:50267 -> 192.168.100.10:3306 UDP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-09:13:01.719712 203.0.113.121:13879 -> 192.168.100.40:443 TCP
+[**] [1:100003:1] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-14:44:01.719712 10.29.245.176:10242 -> 192.168.100.1:25 TCP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/30/2026-21:41:01.719712 203.0.113.24:61433 -> 192.168.100.1:5432 UDP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-23:42:01.719712 203.0.113.24:65243 -> 192.168.100.40:22 UDP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-06:10:01.719712 203.0.113.121:23340 -> 192.168.100.1:80 TCP
+[**] [1:400001:3] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-23:22:01.719712 203.0.113.90:63565 -> 192.168.100.30:8443 UDP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/03/2026-07:39:01.719712 10.128.18.30:65528 -> 192.168.100.1:5432 TCP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-17:25:01.719712 10.82.179.221:64345 -> 192.168.100.30:3306 TCP
+[**] [1:100002:3] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-04:11:01.719712 10.136.112.149:44203 -> 192.168.100.20:22 TCP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/31/2026-08:38:01.719712 203.0.113.160:35315 -> 192.168.100.30:443 TCP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-04:48:01.719712 10.105.63.247:24964 -> 192.168.100.30:8443 UDP
+[**] [1:300001:1] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/04/2026-04:31:01.719712 10.235.202.183:43308 -> 192.168.100.20:5432 TCP
+[**] [1:300001:5] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/06/2026-02:46:01.719712 10.154.86.20:30670 -> 192.168.100.20:80 TCP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-15:48:01.719712 10.129.77.110:24198 -> 192.168.100.40:80 UDP
+[**] [1:100002:5] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-13:33:01.719712 10.81.176.36:33454 -> 192.168.100.1:22 TCP
+[**] [1:500002:3] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-10:33:01.719712 203.0.113.45:48727 -> 192.168.100.20:25 TCP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-00:33:01.719712 10.70.148.211:16598 -> 192.168.100.20:80 UDP
+[**] [1:500002:2] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-20:19:01.719712 10.129.77.110:21247 -> 192.168.100.30:5432 TCP
+[**] [1:200003:1] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-10:44:01.719712 10.193.218.13:36112 -> 192.168.100.40:22 UDP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-15:45:01.719712 10.129.77.110:44402 -> 192.168.100.20:443 TCP
+[**] [1:400002:4] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-19:39:01.719712 10.81.176.36:38718 -> 192.168.100.20:53 UDP
+[**] [1:200002:5] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-06:02:01.719712 10.125.117.195:36328 -> 192.168.100.20:53 TCP
+[**] [1:400002:1] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-18:43:01.719712 10.241.212.90:52977 -> 192.168.100.10:3389 UDP
+[**] [1:200002:1] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-21:46:01.719712 203.0.113.24:62535 -> 192.168.100.1:8080 UDP
+[**] [1:200002:3] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-19:14:01.719712 10.147.123.208:51088 -> 192.168.100.40:25 TCP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/01/2026-03:39:01.719712 10.235.202.183:8729 -> 192.168.100.40:22 UDP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-02:29:01.719712 203.0.113.45:57352 -> 192.168.100.1:80 UDP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-06:22:01.719712 10.186.191.77:13388 -> 192.168.100.20:5432 UDP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-08:20:01.719712 10.125.117.195:55973 -> 192.168.100.40:8080 UDP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-03:37:01.719712 203.0.113.24:22617 -> 192.168.100.40:3306 UDP
+[**] [1:100001:2] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-09:20:01.719712 10.125.117.195:11758 -> 192.168.100.20:8080 UDP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-13:12:01.719712 10.124.10.112:62257 -> 192.168.100.1:22 TCP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-03:28:01.719712 10.186.223.234:16963 -> 192.168.100.20:53 UDP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-10:22:01.719712 10.105.63.247:36921 -> 192.168.100.10:443 UDP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-14:25:01.719712 10.124.10.112:28664 -> 192.168.100.30:8443 TCP
+[**] [1:300003:4] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-19:58:01.719712 10.12.50.1:8873 -> 192.168.100.20:53 UDP
+[**] [1:400002:4] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-20:34:01.719712 10.124.10.112:6045 -> 192.168.100.1:8443 TCP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-14:23:01.719712 203.0.113.116:52638 -> 192.168.100.20:80 TCP
+[**] [1:500001:2] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 03/31/2026-00:54:01.719712 10.54.214.146:3471 -> 192.168.100.30:22 TCP
+[**] [1:500001:2] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-15:16:01.719712 10.29.245.176:58305 -> 192.168.100.20:8443 TCP
+[**] [1:300003:2] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-02:35:01.719712 10.12.181.66:55375 -> 192.168.100.10:8443 TCP
+[**] [1:100001:5] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-05:23:01.719712 10.186.191.77:50179 -> 192.168.100.40:5432 UDP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-12:13:01.719712 10.29.245.176:6125 -> 192.168.100.40:5432 UDP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-10:24:01.719712 203.0.113.90:5828 -> 192.168.100.1:8080 UDP
+[**] [1:500001:2] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-02:44:01.719712 203.0.113.1:35545 -> 192.168.100.1:22 UDP
+[**] [1:200002:3] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-05:32:01.719712 10.186.223.234:31613 -> 192.168.100.30:5432 UDP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-04:58:01.719712 10.235.202.183:16139 -> 192.168.100.40:3306 TCP
+[**] [1:100003:2] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-01:45:01.719712 10.249.41.173:50374 -> 192.168.100.30:8443 TCP
+[**] [1:400002:3] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-07:21:01.719712 203.0.113.1:23517 -> 192.168.100.1:8443 UDP
+[**] [1:100001:2] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-11:26:01.719712 10.186.191.77:3085 -> 192.168.100.1:25 UDP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-10:49:01.719712 10.105.63.247:41716 -> 192.168.100.30:80 TCP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-12:40:01.719712 203.0.113.121:29196 -> 192.168.100.10:80 UDP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-01:34:01.719712 203.0.113.138:63377 -> 192.168.100.10:8443 TCP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-11:32:01.719712 203.0.113.160:27879 -> 192.168.100.20:8080 UDP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-01:55:01.719712 10.235.202.183:36387 -> 192.168.100.10:53 UDP
+[**] [1:100003:5] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-17:21:01.719712 203.0.113.45:16873 -> 192.168.100.1:22 UDP
+[**] [1:100001:5] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-07:58:01.719712 10.124.10.112:10872 -> 192.168.100.1:8080 TCP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-06:08:01.719712 10.212.110.162:20919 -> 192.168.100.1:5432 TCP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/01/2026-16:30:01.719712 203.0.113.126:58603 -> 192.168.100.30:22 UDP
+[**] [1:100003:2] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-08:28:01.719712 10.22.13.175:10150 -> 192.168.100.40:80 UDP
+[**] [1:500001:2] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/03/2026-06:24:01.719712 10.128.18.30:29158 -> 192.168.100.10:443 TCP
+[**] [1:400001:4] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-05:44:01.719712 10.81.176.36:44700 -> 192.168.100.40:3306 UDP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-12:19:01.719712 203.0.113.116:12305 -> 192.168.100.1:3306 UDP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/06/2026-06:46:01.719712 10.54.214.146:17876 -> 192.168.100.10:443 TCP
+[**] [1:400001:3] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-13:27:01.719712 203.0.113.1:54485 -> 192.168.100.1:3306 TCP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-11:34:01.719712 10.12.181.66:49266 -> 192.168.100.40:8080 TCP
+[**] [1:200002:5] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-22:13:01.719712 10.82.179.221:32958 -> 192.168.100.30:53 TCP
+[**] [1:500001:5] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/06/2026-14:46:01.719712 10.124.10.112:19587 -> 192.168.100.30:80 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-00:29:01.719712 203.0.113.45:36975 -> 192.168.100.20:8080 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-06:58:01.719712 10.228.30.35:30030 -> 192.168.100.40:8080 UDP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-18:14:01.719712 10.136.112.149:49786 -> 192.168.100.40:443 UDP
+[**] [1:300003:5] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-21:40:01.719712 10.81.176.36:62619 -> 192.168.100.10:3306 UDP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-21:35:01.719712 10.124.10.112:64734 -> 192.168.100.40:3306 TCP
+[**] [1:200001:3] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-04:22:01.719712 203.0.113.45:31264 -> 192.168.100.1:5432 UDP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-18:39:01.719712 10.241.212.90:3247 -> 192.168.100.20:80 UDP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-01:48:01.719712 10.228.30.35:2206 -> 192.168.100.20:22 TCP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-09:30:01.719712 10.186.191.77:54410 -> 192.168.100.30:8080 UDP
+[**] [1:500002:3] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-14:00:01.719712 10.228.30.35:38681 -> 192.168.100.10:22 TCP
+[**] [1:400001:2] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-13:41:01.719712 203.0.113.45:59580 -> 192.168.100.20:8443 TCP
+[**] [1:100001:3] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-01:39:01.719712 10.12.181.66:58226 -> 192.168.100.30:8080 TCP
+[**] [1:400001:2] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-13:19:01.719712 10.154.86.20:44401 -> 192.168.100.40:443 TCP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-16:37:01.719712 10.81.176.36:32826 -> 192.168.100.1:443 TCP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/31/2026-15:17:01.719712 10.147.123.208:43932 -> 192.168.100.20:3306 UDP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-20:06:01.719712 10.147.123.208:19875 -> 192.168.100.20:53 UDP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-06:05:01.719712 10.147.123.208:45810 -> 192.168.100.30:443 TCP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-19:41:01.719712 10.242.17.59:29671 -> 192.168.100.20:22 TCP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-12:00:01.719712 10.129.77.110:58284 -> 192.168.100.40:8443 TCP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-21:18:01.719712 10.4.53.202:51963 -> 192.168.100.30:3389 UDP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-11:04:01.719712 10.98.194.178:54483 -> 192.168.100.30:22 TCP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-18:15:01.719712 203.0.113.126:15422 -> 192.168.100.30:3306 UDP
+[**] [1:200003:3] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-05:23:01.719712 10.98.194.178:45263 -> 192.168.100.10:5432 UDP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-14:23:01.719712 203.0.113.138:14856 -> 192.168.100.10:80 UDP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-13:34:01.719712 10.212.110.162:6341 -> 192.168.100.30:25 UDP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/06/2026-10:07:01.719712 10.154.86.20:35787 -> 192.168.100.30:8080 TCP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-13:03:01.719712 203.0.113.121:33388 -> 192.168.100.1:3389 UDP
+[**] [1:300003:4] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-22:08:01.719712 10.186.223.234:21739 -> 192.168.100.1:3389 TCP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-13:16:01.719712 10.81.176.36:4416 -> 192.168.100.1:25 UDP
+[**] [1:100003:1] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-19:37:01.719712 10.128.18.30:55157 -> 192.168.100.40:3306 UDP
+[**] [1:100003:2] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-13:59:01.719712 10.125.117.195:10187 -> 192.168.100.1:80 UDP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/06/2026-11:26:01.719712 203.0.113.138:50889 -> 192.168.100.10:3306 UDP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-07:07:01.719712 10.235.202.183:43247 -> 192.168.100.30:5432 UDP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-07:35:01.719712 10.129.77.110:31444 -> 192.168.100.10:3306 TCP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-14:13:01.719712 10.147.123.208:20907 -> 192.168.100.20:25 UDP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-17:29:01.719712 10.54.214.146:1608 -> 192.168.100.30:443 UDP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-13:10:01.719712 10.98.194.178:58758 -> 192.168.100.30:80 TCP
+[**] [1:500001:1] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/04/2026-15:37:01.719712 10.70.148.211:53331 -> 192.168.100.10:80 TCP
+[**] [1:200003:1] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-21:59:01.719712 10.186.191.77:14312 -> 192.168.100.1:25 TCP
+[**] [1:500002:3] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-02:59:01.719712 10.22.13.175:51777 -> 192.168.100.20:22 TCP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/01/2026-16:05:01.719712 10.12.50.1:46539 -> 192.168.100.10:53 UDP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-09:08:01.719712 10.242.17.59:18162 -> 192.168.100.20:53 UDP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-09:49:01.719712 10.249.41.173:49233 -> 192.168.100.20:3306 TCP
+[**] [1:400002:4] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-15:55:01.719712 10.186.223.234:51324 -> 192.168.100.20:53 TCP
+[**] [1:100001:2] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-16:49:01.719712 10.105.63.247:26238 -> 192.168.100.20:25 TCP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/02/2026-04:48:01.719712 10.12.50.1:11870 -> 192.168.100.20:5432 TCP
+[**] [1:100003:5] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-02:09:01.719712 10.128.18.30:24770 -> 192.168.100.1:8080 UDP
+[**] [1:100001:2] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-02:51:01.719712 10.193.11.247:19843 -> 192.168.100.1:8443 UDP
+[**] [1:100001:4] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-13:43:01.719712 10.98.194.178:6733 -> 192.168.100.10:80 UDP
+[**] [1:200002:5] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-15:50:01.719712 203.0.113.169:20414 -> 192.168.100.30:22 TCP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-12:25:01.719712 10.212.110.162:34071 -> 192.168.100.20:443 TCP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-02:30:01.719712 10.129.77.110:6502 -> 192.168.100.10:3389 TCP
+[**] [1:200002:2] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-17:54:01.719712 203.0.113.121:27453 -> 192.168.100.30:22 TCP
+[**] [1:100002:4] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-23:09:01.719712 10.241.212.90:30913 -> 192.168.100.1:443 TCP
+[**] [1:300002:5] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-18:56:01.719712 203.0.113.160:38501 -> 192.168.100.30:8080 UDP
+[**] [1:400001:3] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 03/31/2026-06:07:01.719712 203.0.113.121:20915 -> 192.168.100.10:8443 TCP
+[**] [1:400001:2] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/02/2026-21:28:01.719712 10.82.179.221:2118 -> 192.168.100.20:3306 TCP
+[**] [1:200001:2] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-08:48:01.719712 10.249.41.173:48480 -> 192.168.100.40:53 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-18:32:01.719712 203.0.113.169:5442 -> 192.168.100.20:443 TCP
+[**] [1:500002:3] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-13:36:01.719712 10.147.123.208:53358 -> 192.168.100.30:8080 UDP
+[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/31/2026-14:16:01.719712 10.55.190.133:52659 -> 192.168.100.40:443 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-22:00:01.719712 203.0.113.45:13640 -> 192.168.100.40:8080 TCP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-07:28:01.719712 10.235.202.183:39101 -> 192.168.100.10:3306 UDP
+[**] [1:100001:4] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-04:04:01.719712 10.12.181.66:55757 -> 192.168.100.10:3306 TCP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-16:21:01.719712 203.0.113.138:47376 -> 192.168.100.20:443 UDP
+[**] [1:100003:2] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-18:27:01.719712 203.0.113.1:37344 -> 192.168.100.40:25 UDP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/03/2026-00:04:01.719712 10.81.176.36:5955 -> 192.168.100.40:8443 UDP
+[**] [1:200003:1] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-16:48:01.719712 203.0.113.121:42475 -> 192.168.100.30:3389 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-23:48:01.719712 10.124.10.112:19170 -> 192.168.100.30:443 UDP
+[**] [1:400002:3] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/04/2026-00:44:01.719712 10.136.112.149:3738 -> 192.168.100.20:3306 UDP
+[**] [1:200001:1] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-19:22:01.719712 203.0.113.138:43043 -> 192.168.100.10:22 TCP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-10:12:01.719712 10.154.86.20:39527 -> 192.168.100.1:53 UDP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-22:11:01.719712 203.0.113.121:54708 -> 192.168.100.10:3306 TCP
+[**] [1:100003:2] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-22:06:01.719712 203.0.113.138:57870 -> 192.168.100.1:443 UDP
+[**] [1:100002:1] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 03/30/2026-22:34:01.719712 203.0.113.126:65314 -> 192.168.100.20:8080 TCP
+[**] [1:400002:5] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-17:17:01.719712 10.147.123.208:56282 -> 192.168.100.40:8080 TCP
+[**] [1:100002:5] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-08:55:01.719712 10.193.218.13:40232 -> 192.168.100.1:8080 TCP
+[**] [1:300003:3] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-21:09:01.719712 10.12.50.1:51502 -> 192.168.100.30:22 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-00:26:01.719712 203.0.113.1:43654 -> 192.168.100.1:22 UDP
+[**] [1:200003:1] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/03/2026-20:03:01.719712 10.4.53.202:26328 -> 192.168.100.10:443 UDP
+[**] [1:200003:4] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-18:39:01.719712 10.147.123.208:50051 -> 192.168.100.10:5432 TCP
+[**] [1:400001:5] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/05/2026-14:19:01.719712 10.98.194.178:61023 -> 192.168.100.20:25 UDP
+[**] [1:100001:1] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-17:04:01.719712 203.0.113.160:21059 -> 192.168.100.20:3389 TCP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-17:20:01.719712 10.193.218.13:10767 -> 192.168.100.1:3306 UDP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-18:23:01.719712 203.0.113.126:36441 -> 192.168.100.10:443 UDP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-17:43:01.719712 10.4.53.202:56537 -> 192.168.100.40:8080 UDP
+[**] [1:300002:3] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-17:50:01.719712 10.249.41.173:52355 -> 192.168.100.10:3389 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-11:24:01.719712 10.235.202.183:17303 -> 192.168.100.40:5432 TCP
+[**] [1:200003:4] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-00:06:01.719712 10.98.194.178:53874 -> 192.168.100.10:80 TCP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-09:43:01.719712 203.0.113.121:41835 -> 192.168.100.10:22 UDP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/02/2026-04:36:01.719712 10.98.194.178:23056 -> 192.168.100.1:80 TCP
+[**] [1:500002:1] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-00:58:01.719712 203.0.113.24:13335 -> 192.168.100.1:5432 TCP
+[**] [1:300002:4] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/05/2026-16:32:01.719712 10.186.191.77:9420 -> 192.168.100.30:3389 UDP
+[**] [1:100001:2] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-08:04:01.719712 10.193.11.247:27030 -> 192.168.100.1:8443 UDP
+[**] [1:200003:1] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-01:54:01.719712 203.0.113.116:4194 -> 192.168.100.20:8443 TCP
+[**] [1:200003:5] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/05/2026-09:56:01.719712 10.147.123.208:51385 -> 192.168.100.40:25 UDP
+[**] [1:200002:4] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/04/2026-19:44:01.719712 203.0.113.45:47235 -> 192.168.100.20:22 UDP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 03/31/2026-08:51:01.719712 10.234.248.179:60503 -> 192.168.100.20:8080 UDP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/03/2026-10:31:01.719712 10.82.179.221:23255 -> 192.168.100.40:8443 UDP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-00:15:01.719712 203.0.113.116:62536 -> 192.168.100.30:443 TCP
+[**] [1:400001:1] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/01/2026-12:28:01.719712 203.0.113.24:63440 -> 192.168.100.10:8080 UDP
+[**] [1:200001:4] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-02:51:01.719712 203.0.113.45:1083 -> 192.168.100.30:80 TCP
+[**] [1:300002:2] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/01/2026-05:56:01.719712 203.0.113.160:61163 -> 192.168.100.10:22 UDP
+[**] [1:300004:1] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 04/06/2026-01:05:01.719712 10.82.179.221:28011 -> 192.168.100.1:8443 TCP
+[**] [1:200001:5] ET EXPLOIT Possible SQL Injection Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-23:49:01.719712 10.29.245.176:37556 -> 192.168.100.1:3306 TCP
+[**] [1:400001:3] ET DOS Possible TCP SYN Flood Attack [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-13:21:01.719712 10.241.212.90:37558 -> 192.168.100.20:53 UDP
+[**] [1:300002:1] ET MALWARE Known Malicious User-Agent String [**] [Classification: trojan-activity] [Priority: 1] 04/04/2026-03:58:01.719712 10.82.179.221:56287 -> 192.168.100.30:25 TCP
+[**] [1:100003:4] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/01/2026-07:32:01.719712 10.54.214.146:32459 -> 192.168.100.1:8080 UDP
+[**] [1:300001:4] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/06/2026-09:10:01.719712 10.147.123.208:52046 -> 192.168.100.10:22 TCP
+[**] [1:300003:2] ET MALWARE Win32 Emotet Command and Control [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-12:15:01.719712 10.234.248.179:1903 -> 192.168.100.30:53 TCP
+[**] [1:400002:2] ET DOS Possible NTP Amplification DDoS [**] [Classification: attempted-dos] [Priority: 2] 04/03/2026-22:51:01.719712 10.70.148.211:46438 -> 192.168.100.40:53 UDP
+[**] [1:100001:5] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 03/31/2026-10:28:01.719712 10.228.30.35:10456 -> 192.168.100.10:3306 TCP
+[**] [1:100001:3] ET SCAN Potential SSH Scan [**] [Classification: attempted-recon] [Priority: 2] 04/04/2026-20:35:01.719712 10.124.10.112:5435 -> 192.168.100.1:3389 UDP
+[**] [1:500002:4] ET P2P BitTorrent DHT Ping Request [**] [Classification: policy-violation] [Priority: 3] 04/05/2026-09:22:01.719712 203.0.113.24:23247 -> 192.168.100.10:3389 TCP
+[**] [1:100002:2] ET SCAN Nmap Scripting Engine Detected [**] [Classification: attempted-recon] [Priority: 2] 04/05/2026-11:07:01.719712 10.249.41.173:4024 -> 192.168.100.10:8080 TCP
+[**] [1:300004:2] ET MALWARE CobaltStrike Beacon Activity Detected [**] [Classification: trojan-activity] [Priority: 1] 03/31/2026-17:50:01.719712 10.228.30.35:34646 -> 192.168.100.10:22 UDP
+[**] [1:200003:2] ET EXPLOIT PHP Remote File Include Attempt [**] [Classification: web-application-attack] [Priority: 1] 04/02/2026-16:51:01.719712 203.0.113.90:32334 -> 192.168.100.20:53 UDP
+[**] [1:300001:2] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 04/06/2026-07:22:01.719712 10.212.110.162:53998 -> 192.168.100.30:80 TCP
+[**] [1:100003:3] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/03/2026-10:48:01.719712 10.125.117.195:4017 -> 192.168.100.40:25 UDP
+[**] [1:200002:5] ET EXPLOIT Apache Struts Remote Code Execution [**] [Classification: web-application-attack] [Priority: 1] 04/01/2026-08:46:01.719712 10.212.110.162:19197 -> 192.168.100.20:3306 TCP
+[**] [1:500001:2] ET POLICY Outbound SSH on Non-Standard Port [**] [Classification: policy-violation] [Priority: 3] 04/02/2026-05:18:01.719712 10.193.218.13:38870 -> 192.168.100.30:443 UDP
+[**] [1:100003:5] ET SCAN Potential FTP Brute Force [**] [Classification: attempted-recon] [Priority: 2] 04/06/2026-12:25:01.719712 10.186.191.77:63469 -> 192.168.100.30:8443 UDP
