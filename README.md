@@ -69,13 +69,19 @@ Gateway / Webserver --> Filebeat (port 5044) --> Logstash --> Elasticsearch (HTT
 
 
 ## Status
-#🟢 Week 1 — Complete (ELK Stack foundation)
-#🔴 Week 2 — Complete (Enhanced parsing, Python preprocessor, first dashboard)
-#⭕ Week 3-4 — Complete (IDS log source, Python IDS indexer, IDS preprocessor, IDS visualisations)
-#⬜ Week 5-6 — Planned (Auth analysis, RBAC)
-#⬜ Week 7-8 — Planned (ILM retention, health monitor)
-#⬜ Week 9-10 — Planned (Security hardening, documentation)
-#⬜ Week 11-12 — Planned (WOW factor, STAR, demo
+🟢 Week 1 — Complete (ELK Stack foundation)
+
+🔴 Week 2 — Complete (Enhanced parsing, Python preprocessor, first dashboard)
+
+⭕ Week 3-4 — Complete (IDS log source, Python IDS indexer, IDS preprocessor, IDS visualisations)
+
+⬜ Week 5-6 — Planned (Auth analysis, RBAC)
+
+⬜ Week 7-8 — Planned (ILM retention, health monitor)
+
+⬜ Week 9-10 — Planned (Security hardening, documentation)
+
+⬜ Week 11-12 — Planned (WOW factor, STAR, demo
 
 ## Repository Structure
 catnip-soc/
