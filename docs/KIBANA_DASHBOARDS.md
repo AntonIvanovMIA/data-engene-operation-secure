@@ -50,4 +50,5 @@ Data View: firewall (logstash-firewall-*)
 - Index template maps fields as keyword type directly
 - "Problem with 1 cluster" warning is normal for single-node lab
 - Time range: Last 15-30 days to see all data
-```
+```<img width="2559" height="1559" alt="Screenshot 2026-04-06 204109" src="https://github.com/user-attachments/assets/28a6aeae-918d-4781-b1fc-5bffb4b8082f" />
+
