@@ -65,7 +65,7 @@ Gateway / Webserver --> Filebeat (port 5044) --> Logstash --> Elasticsearch (HTT
 
 ## Status
 ## Week 1 2,3,4 Deliverables (Anton - Individual Contribution)
-
+## Elk server and gataway OVA created and send in Google drive  to help the team   member send  by Anton
 
 
 ## Status
