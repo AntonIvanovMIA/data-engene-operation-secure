@@ -75,11 +75,11 @@ Gateway / Webserver --> Filebeat (port 5044) --> Logstash --> Elasticsearch (HTT
 
 ⭕ Week 3-4 — Complete (IDS log source, Python IDS indexer, IDS preprocessor, IDS visualisations)
 
-⬜ Week 5-6 — Planned (Auth analysis, RBAC)
+⬜🟢 Week 5-6 — Completed (Auth analysis, RBAC)
 
-⬜ Week 7-8 — Planned (ILM retention, health monitor)
+⬜ Week 7-8 — IN PROCESS (ILM retention, health monitor)
 
-⬜ Week 9-10 — Planned (Security hardening, documentation)
+⬜ Week 9-10 — PROCESS (Security hardening, documentation)
 
 ⬜ Week 11-12 — Planned (WOW factor, STAR, demo
 
