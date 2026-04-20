@@ -25,11 +25,11 @@ This extends the system from monitoring → **security-grade logging and complia
 ElasticStackServer (192.168.100.30)
 
 ## Configuration File
- /etc/elasticsearch/elasticsearch.yml`
+`/etc/elasticsearch/elasticsearch.yml`
 
 ## Change Applied
 
-yaml
+```yaml
 xpack.security.audit.enabled: true
 Command Used
 sudo nano /etc/elasticsearch/elasticsearch.yml
@@ -39,7 +39,7 @@ sudo systemctl status elasticsearch --no-pager
 Result
 Elasticsearch restarted successfully
 No configuration errors detected
-# 3. License Limitation Identified
+3. License Limitation Identified
 
 After enabling audit logging, no logs were generated.
 
@@ -51,7 +51,7 @@ Analysis
 Audit logging requires a higher-tier license
 Basic license does NOT support audit logging
 This demonstrates understanding of real-world licensing constraints
-# 4. Trial License Activation
+4. Trial License Activation
 Step 1 — Check Eligibility
 curl --cacert /etc/elasticsearch/certs/http_ca.crt \
 -u elastic:$ELASTIC_PASSWORD \
@@ -73,7 +73,7 @@ Result
 License type: trial
 Status: active
 Expiry: 30 days
-# 5. Audit Logging Verification
+5. Audit Logging Verification
 Generate Security Event
 curl --cacert /etc/elasticsearch/certs/http_ca.crt \
 -u elastic:$ELASTIC_PASSWORD \
@@ -92,7 +92,7 @@ Example Audit Events Observed
   "authentication.type": "REALM",
   "indices": [".kibana_8.19.12"]
 }
-# 6. Security Value
+6. Security Value
 
 Audit logging provides:
 
@@ -101,19 +101,19 @@ Authentication tracking
 Access monitoring (who accessed what)
 Forensic investigation capability
 Compliance support (SOC, ISO27001)
-# 7. Key Learnings
+7. Key Learnings
 Security features depend on licensing tiers
 Proper validation requires log inspection
 Real SOC systems require audit trails for accountability
 Elasticsearch provides deep visibility into system access
-# 8. Evidence Collected
+8. Evidence Collected
 Elasticsearch configuration file
 License activation output
 Audit log file presence
 Audit log entries (JSON format)
-# 9. Current Status
+9. Current Status
 Feature	Status
 Audit logging enabled	✅
 Trial license active	✅
 Audit events generated	✅
-Logs verified	
+Logs verified	✅
