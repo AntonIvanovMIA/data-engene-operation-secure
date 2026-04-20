@@ -16,6 +16,7 @@ student@elasticstackstudentserver:~/catnip-soc$ time curl -s --cacert /etc/elast
 real	0m2.201s
 user	0m0.163s
 sys	0m0.155s
+
 student@elasticstackstudentserver:~/catnip-soc$ time curl -s --cacert /etc/elasticsearch/certs/http_ca.crt \
   -u elastic:$ELASTIC_PASSWORD \
   'https://localhost:9200/logstash-*/_search' \
@@ -25,6 +26,7 @@ student@elasticstackstudentserver:~/catnip-soc$ time curl -s --cacert /etc/elast
 real	0m0.588s
 user	0m0.034s
 sys	0m0.104s
+
 student@elasticstackstudentserver:~/catnip-soc$ time curl -s --cacert /etc/elasticsearch/certs/http_ca.crt \
   -u elastic:$ELASTIC_PASSWORD \
   'https://localhost:9200/logstash-*/_search' \
@@ -34,6 +36,7 @@ student@elasticstackstudentserver:~/catnip-soc$ time curl -s --cacert /etc/elast
 real	0m0.625s
 user	0m0.025s
 sys	0m0.065s
+
 student@elasticstackstudentserver:~/catnip-soc$ time curl -s --cacert /etc/elasticsearch/certs/http_ca.crt \
   -u elastic:$ELASTIC_PASSWORD \
   'https://localhost:9200/logstash-*/_count' > /dev/null
