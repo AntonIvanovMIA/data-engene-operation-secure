@@ -73,7 +73,9 @@ Result
 License type: trial
 Status: active
 Expiry: 30 days
+```
 ## 5. Audit Logging Verification
+```
 Generate Security Event
 curl --cacert /etc/elasticsearch/certs/http_ca.crt \
 -u elastic:$ELASTIC_PASSWORD \
@@ -92,8 +94,9 @@ Example Audit Events Observed
   "authentication.type": "REALM",
   "indices": [".kibana_8.19.12"]
 }
+```
 ## 6. Security Value
-
+```
 Audit logging provides:
 
 Full trace of user activity
@@ -101,11 +104,14 @@ Authentication tracking
 Access monitoring (who accessed what)
 Forensic investigation capability
 Compliance support (SOC, ISO27001)
+```
 ###  7. Key Learnings
+```
 Security features depend on licensing tiers
 Proper validation requires log inspection
 Real SOC systems require audit trails for accountability
 Elasticsearch provides deep visibility into system access
+```
 ##  8. Evidence Collected
 Elasticsearch configuration file
 License activation output
@@ -117,3 +123,41 @@ Audit logging enabled
 Trial license active
 Audit events generated	
 Logs verified	
+---
+
+# 11. UFW Firewall Implementation
+
+## Machine
+ElasticStackServer (192.168.100.30)
+
+## Configuration
+
+Default policies:
+
+```bash
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+Allowed services (internal network only):
+
+sudo ufw allow from 192.168.100.0/24 to any port 22 proto tcp
+sudo ufw allow from 192.168.100.0/24 to any port 9200 proto tcp
+sudo ufw allow from 192.168.100.0/24 to any port 5601 proto tcp
+sudo ufw allow from 192.168.100.0/24 to any port 5044 proto tcp
+sudo ufw allow from 127.0.0.1
+
+Firewall enabled:
+
+sudo ufw enable
+
+Verification:
+
+sudo ufw status verbose
+```
+## Security Benefit
+Restricts access to ELK services to internal network only
+Prevents external unauthorized access
+Implements network-level security layer
+Result
+
+Firewall successfully configured and verified without disrupting ELK services.
