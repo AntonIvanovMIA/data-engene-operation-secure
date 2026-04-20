@@ -73,7 +73,7 @@ Result
 License type: trial
 Status: active
 Expiry: 30 days
-5. Audit Logging Verification
+## 5. Audit Logging Verification
 Generate Security Event
 curl --cacert /etc/elasticsearch/certs/http_ca.crt \
 -u elastic:$ELASTIC_PASSWORD \
@@ -92,7 +92,7 @@ Example Audit Events Observed
   "authentication.type": "REALM",
   "indices": [".kibana_8.19.12"]
 }
-6. Security Value
+## 6. Security Value
 
 Audit logging provides:
 
@@ -101,19 +101,19 @@ Authentication tracking
 Access monitoring (who accessed what)
 Forensic investigation capability
 Compliance support (SOC, ISO27001)
-7. Key Learnings
+###  7. Key Learnings
 Security features depend on licensing tiers
 Proper validation requires log inspection
 Real SOC systems require audit trails for accountability
 Elasticsearch provides deep visibility into system access
-8. Evidence Collected
+##  8. Evidence Collected
 Elasticsearch configuration file
 License activation output
 Audit log file presence
 Audit log entries (JSON format)
-9. Current Status
+## 9. Current Status
 Feature	Status
-Audit logging enabled	✅
-Trial license active	✅
-Audit events generated	✅
-Logs verified	✅
+Audit logging enabled	
+Trial license active
+Audit events generated	
+Logs verified	
