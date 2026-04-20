@@ -1,0 +1,20 @@
+         Active shards: 50
+
+[4] LOG INDICES
+  Indices:
+    index                        docs.count store.size
+    logstash-firewall-2026.04.02        500    409.6kb
+    logstash-firewall-2026.04.01       5516       12mb
+    logstash-firewall-2026.03.04       3126      3.1mb
+    logstash-firewall-2026.04.20       3034      6.4mb
+    logstash-firewall-2026.03.05        487      1.6mb
+
+[5] SYSTEM RESOURCES
+  [  OK  ] Disk usage: 52% (13G free)
+  [ INFO ] Memory: 3.7Gi used / 3.8Gi total
+
+==========================================================
+  RESULT: 8/8 checks passed
+  STATUS: [92mHEALTHY[0m
+==========================================================
+
