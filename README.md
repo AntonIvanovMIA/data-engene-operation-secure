@@ -50,13 +50,13 @@ Gateway / Webserver --> Filebeat (port 5044) --> Logstash --> Elasticsearch (HTT
 - System health monitoring script (Python)
 - Performance testing and optimisation
 
-### Part 3 — Week 9–10: Security Hardening & Documentation (Anton)
+### Part 3 — Week 9–10: Security Hardening & Documentation (Anton and Mohammad)
 - Elasticsearch audit logging
 - UFW firewall rules on ElasticStackServer
 - Security hardening checklist
 - Complete project documentation (README, ARCHITECTURE, TROUBLESHOOTING, INSTALLATION)
 
-### Part 4 — Week 11–12: WOW Factor & Final Delivery (Anton & Clesus)
+### Part 4 — Week 11–12: WOW Factor & Final Delivery (Anton )
 - Automated security alert monitoring system
 - Log simulation framework
 - Automated backup script
@@ -77,11 +77,11 @@ Gateway / Webserver --> Filebeat (port 5044) --> Logstash --> Elasticsearch (HTT
 
 ⬜🟢 Week 5-6 — Completed (Auth analysis, RBAC)
 
-⬜ Week 7-8 — IN PROCESS (ILM retention, health monitor)
+⬜🔴🔴 Week 7-8 — completed (ILM retention, health monitor)
 
-⬜ Week 9-10 — PROCESS (Security hardening, documentation)
+⬜⭕⭕⭕ Week 9-10 — partly compleated  documentation (Security hardening, documentation)
 
-⬜ Week 11-12 — Planned (WOW factor, STAR, demo
+⬜🟢🟢🟢🟢 Week 11-12 — appear (WOW factor, STAR, demo
 
 ## Repository Structure
 catnip-soc/
