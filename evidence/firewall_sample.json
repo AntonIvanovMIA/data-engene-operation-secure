@@ -1,0 +1,94 @@
+{
+  "took" : 42,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 6,
+    "successful" : 6,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 10000,
+      "relation" : "gte"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "logstash-firewall-2026.03.04",
+        "_id" : "5r9Lu5wBceuhD0hcDs_a",
+        "_score" : 1.0,
+        "_ignored" : [
+          "event.original.keyword",
+          "message.keyword",
+          "syslog_message.keyword"
+        ],
+        "_source" : {
+          "program" : "filebeat",
+          "tags" : [
+            "beats_input_codec_plain_applied",
+            "firewall"
+          ],
+          "input" : {
+            "type" : "filestream"
+          },
+          "@timestamp" : "2026-03-04T23:59:34.244Z",
+          "@version" : "1",
+          "log" : {
+            "file" : {
+              "inode" : "131202",
+              "path" : "/var/log/syslog",
+              "device_id" : "64768"
+            },
+            "offset" : 265999
+          },
+          "log_type" : "system",
+          "pid" : "3583",
+          "ecs" : {
+            "version" : "8.0.0"
+          },
+          "syslog_timestamp" : "Mar  4 23:59:27",
+          "host" : {
+            "hostname" : "webserver",
+            "architecture" : "x86_64",
+            "mac" : [
+              "08-00-27-0B-C1-F7",
+              "08-00-27-1D-DA-19"
+            ],
+            "ip" : [
+              "192.168.100.10",
+              "fe80::a00:27ff:fe1d:da19"
+            ],
+            "name" : "webserver",
+            "os" : {
+              "platform" : "ubuntu",
+              "type" : "linux",
+              "version" : "22.04.5 LTS (Jammy Jellyfish)",
+              "kernel" : "5.15.0-160-generic",
+              "name" : "Ubuntu",
+              "family" : "debian",
+              "codename" : "jammy"
+            },
+            "id" : "52894bb4a5e047e2a1db019eac73a08e",
+            "containerized" : false
+          },
+          "source_vm" : "webserver",
+          "event.original" : "Mar  4 23:59:27 webserver filebeat[3583]: {\"log.level\":\"info\",\"@timestamp\":\"2026-03-04T23:59:27.819Z\",\"log.logger\":\"monitoring\",\"log.origin\":{\"function\":\"github.com/elastic/beats/v7/libbeat/monitoring/report/log.(*reporter).logSnapshot\",\"file.name\":\"log/log.go\",\"file.line\":192},\"message\":\"Non-zero metrics in the last 30s\",\"service.name\":\"filebeat\",\"monitoring\":{\"metrics\":{\"beat\":{\"cgroup\":{\"memory\":{\"mem\":{\"usage\":{\"bytes\":40710144}}}},\"cpu\":{\"system\":{\"ticks\":3360,\"time\":{\"ms\":40}},\"total\":{\"ticks\":7710,\"time\":{\"ms\":50},\"value\":7710},\"user\":{\"ticks\":4350,\"time\":{\"ms\":10}}},\"handles\":{\"limit\":{\"hard\":524288,\"soft\":524287},\"open\":11},\"info\":{\"ephemeral_id\":\"fb5832d9-6ea7-483a-888d-f7ef86114b28\",\"uptime\":{\"ms\":4380247},\"version\":\"8.19.12\"},\"memstats\":{\"gc_next\":18080658,\"memory_alloc\":9742520,\"memory_total\":249709696,\"rss\":130785280},\"runtime\":{\"goroutines\":39}},\"filebeat\":{\"events\":{\"active\":0,\"added\":1,\"done\":1},\"harvester\":{\"open_files\":1,\"running\":1}},\"libbeat\":{\"config\":{\"module\":{\"running\":0}},\"output\":{\"events\":{\"acked\":1,\"active\":0,\"batches\":1,\"total\":1},\"read\":{\"bytes\":6},\"write\":{\"bytes\":1423,\"latency\":{\"histogram\":{\"count\":149,\"max\":6231,\"mean\":86.26174496644295,\"median\":15,\"min\":5,\"p75\":28,\"p95\":67,\"p99\":4823.5,\"p999\":6231,\"stddev\":576.338772905313}}}},\"pipeline\":{\"clients\":1,\"events\":{\"active\":0,\"published\":1,\"total\":1},\"queue\":{\"acked\":1,\"added\":{\"events\":1},\"consumed\":{\"events\":1},\"filled\":{\"bytes\":0,\"events\":0,\"pct\":0},\"max_bytes\":0,\"max_events\":3200,\"removed\":{\"events\":1}}}},\"registrar\":{\"states\":{\"current\":0}},\"system\":{\"load\":{\"1\":0,\"15\":0,\"5\":0,\"norm\":{\"1\":0,\"15\":0,\"5\":0}}}},\"ecs.version\":\"1.6.0\"}}",
+          "agent" : {
+            "name" : "webserver",
+            "ephemeral_id" : "fb5832d9-6ea7-483a-888d-f7ef86114b28",
+            "type" : "filebeat",
+            "id" : "a1eff395-702a-4383-8adf-8ce0d40d5249",
+            "version" : "8.19.12"
+          },
+          "message" : "{\"log.level\":\"info\",\"@timestamp\":\"2026-03-04T23:59:27.819Z\",\"log.logger\":\"monitoring\",\"log.origin\":{\"function\":\"github.com/elastic/beats/v7/libbeat/monitoring/report/log.(*reporter).logSnapshot\",\"file.name\":\"log/log.go\",\"file.line\":192},\"message\":\"Non-zero metrics in the last 30s\",\"service.name\":\"filebeat\",\"monitoring\":{\"metrics\":{\"beat\":{\"cgroup\":{\"memory\":{\"mem\":{\"usage\":{\"bytes\":40710144}}}},\"cpu\":{\"system\":{\"ticks\":3360,\"time\":{\"ms\":40}},\"total\":{\"ticks\":7710,\"time\":{\"ms\":50},\"value\":7710},\"user\":{\"ticks\":4350,\"time\":{\"ms\":10}}},\"handles\":{\"limit\":{\"hard\":524288,\"soft\":524287},\"open\":11},\"info\":{\"ephemeral_id\":\"fb5832d9-6ea7-483a-888d-f7ef86114b28\",\"uptime\":{\"ms\":4380247},\"version\":\"8.19.12\"},\"memstats\":{\"gc_next\":18080658,\"memory_alloc\":9742520,\"memory_total\":249709696,\"rss\":130785280},\"runtime\":{\"goroutines\":39}},\"filebeat\":{\"events\":{\"active\":0,\"added\":1,\"done\":1},\"harvester\":{\"open_files\":1,\"running\":1}},\"libbeat\":{\"config\":{\"module\":{\"running\":0}},\"output\":{\"events\":{\"acked\":1,\"active\":0,\"batches\":1,\"total\":1},\"read\":{\"bytes\":6},\"write\":{\"bytes\":1423,\"latency\":{\"histogram\":{\"count\":149,\"max\":6231,\"mean\":86.26174496644295,\"median\":15,\"min\":5,\"p75\":28,\"p95\":67,\"p99\":4823.5,\"p999\":6231,\"stddev\":576.338772905313}}}},\"pipeline\":{\"clients\":1,\"events\":{\"active\":0,\"published\":1,\"total\":1},\"queue\":{\"acked\":1,\"added\":{\"events\":1},\"consumed\":{\"events\":1},\"filled\":{\"bytes\":0,\"events\":0,\"pct\":0},\"max_bytes\":0,\"max_events\":3200,\"removed\":{\"events\":1}}}},\"registrar\":{\"states\":{\"current\":0}},\"system\":{\"load\":{\"1\":0,\"15\":0,\"5\":0,\"norm\":{\"1\":0,\"15\":0,\"5\":0}}}},\"ecs.version\":\"1.6.0\"}}",
+          "event" : {
+            "original" : "Mar  4 23:59:27 webserver filebeat[3583]: {\"log.level\":\"info\",\"@timestamp\":\"2026-03-04T23:59:27.819Z\",\"log.logger\":\"monitoring\",\"log.origin\":{\"function\":\"github.com/elastic/beats/v7/libbeat/monitoring/report/log.(*reporter).logSnapshot\",\"file.name\":\"log/log.go\",\"file.line\":192},\"message\":\"Non-zero metrics in the last 30s\",\"service.name\":\"filebeat\",\"monitoring\":{\"metrics\":{\"beat\":{\"cgroup\":{\"memory\":{\"mem\":{\"usage\":{\"bytes\":40710144}}}},\"cpu\":{\"system\":{\"ticks\":3360,\"time\":{\"ms\":40}},\"total\":{\"ticks\":7710,\"time\":{\"ms\":50},\"value\":7710},\"user\":{\"ticks\":4350,\"time\":{\"ms\":10}}},\"handles\":{\"limit\":{\"hard\":524288,\"soft\":524287},\"open\":11},\"info\":{\"ephemeral_id\":\"fb5832d9-6ea7-483a-888d-f7ef86114b28\",\"uptime\":{\"ms\":4380247},\"version\":\"8.19.12\"},\"memstats\":{\"gc_next\":18080658,\"memory_alloc\":9742520,\"memory_total\":249709696,\"rss\":130785280},\"runtime\":{\"goroutines\":39}},\"filebeat\":{\"events\":{\"active\":0,\"added\":1,\"done\":1},\"harvester\":{\"open_files\":1,\"running\":1}},\"libbeat\":{\"config\":{\"module\":{\"running\":0}},\"output\":{\"events\":{\"acked\":1,\"active\":0,\"batches\":1,\"total\":1},\"read\":{\"bytes\":6},\"write\":{\"bytes\":1423,\"latency\":{\"histogram\":{\"count\":149,\"max\":6231,\"mean\":86.26174496644295,\"median\":15,\"min\":5,\"p75\":28,\"p95\":67,\"p99\":4823.5,\"p999\":6231,\"stddev\":576.338772905313}}}},\"pipeline\":{\"clients\":1,\"events\":{\"active\":0,\"published\":1,\"total\":1},\"queue\":{\"acked\":1,\"added\":{\"events\":1},\"consumed\":{\"events\":1},\"filled\":{\"bytes\":0,\"events\":0,\"pct\":0},\"max_bytes\":0,\"max_events\":3200,\"removed\":{\"events\":1}}}},\"registrar\":{\"states\":{\"current\":0}},\"system\":{\"load\":{\"1\":0,\"15\":0,\"5\":0,\"norm\":{\"1\":0,\"15\":0,\"5\":0}}}},\"ecs.version\":\"1.6.0\"}}"
+          },
+          "syslog_message" : "{\"log.level\":\"info\",\"@timestamp\":\"2026-03-04T23:59:27.819Z\",\"log.logger\":\"monitoring\",\"log.origin\":{\"function\":\"github.com/elastic/beats/v7/libbeat/monitoring/report/log.(*reporter).logSnapshot\",\"file.name\":\"log/log.go\",\"file.line\":192},\"message\":\"Non-zero metrics in the last 30s\",\"service.name\":\"filebeat\",\"monitoring\":{\"metrics\":{\"beat\":{\"cgroup\":{\"memory\":{\"mem\":{\"usage\":{\"bytes\":40710144}}}},\"cpu\":{\"system\":{\"ticks\":3360,\"time\":{\"ms\":40}},\"total\":{\"ticks\":7710,\"time\":{\"ms\":50},\"value\":7710},\"user\":{\"ticks\":4350,\"time\":{\"ms\":10}}},\"handles\":{\"limit\":{\"hard\":524288,\"soft\":524287},\"open\":11},\"info\":{\"ephemeral_id\":\"fb5832d9-6ea7-483a-888d-f7ef86114b28\",\"uptime\":{\"ms\":4380247},\"version\":\"8.19.12\"},\"memstats\":{\"gc_next\":18080658,\"memory_alloc\":9742520,\"memory_total\":249709696,\"rss\":130785280},\"runtime\":{\"goroutines\":39}},\"filebeat\":{\"events\":{\"active\":0,\"added\":1,\"done\":1},\"harvester\":{\"open_files\":1,\"running\":1}},\"libbeat\":{\"config\":{\"module\":{\"running\":0}},\"output\":{\"events\":{\"acked\":1,\"active\":0,\"batches\":1,\"total\":1},\"read\":{\"bytes\":6},\"write\":{\"bytes\":1423,\"latency\":{\"histogram\":{\"count\":149,\"max\":6231,\"mean\":86.26174496644295,\"median\":15,\"min\":5,\"p75\":28,\"p95\":67,\"p99\":4823.5,\"p999\":6231,\"stddev\":576.338772905313}}}},\"pipeline\":{\"clients\":1,\"events\":{\"active\":0,\"published\":1,\"total\":1},\"queue\":{\"acked\":1,\"added\":{\"events\":1},\"consumed\":{\"events\":1},\"filled\":{\"bytes\":0,\"events\":0,\"pct\":0},\"max_bytes\":0,\"max_events\":3200,\"removed\":{\"events\":1}}}},\"registrar\":{\"states\":{\"current\":0}},\"system\":{\"load\":{\"1\":0,\"15\":0,\"5\":0,\"norm\":{\"1\":0,\"15\":0,\"5\":0}}}},\"ecs.version\":\"1.6.0\"}}",
+          "syslog_host" : "webserver"
+        }
+      }
+    ]
+  }
+}
