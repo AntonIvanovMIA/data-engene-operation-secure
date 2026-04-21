@@ -1,0 +1,102 @@
+{
+  "took" : 24,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 6,
+    "successful" : 6,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 1800,
+      "relation" : "eq"
+    },
+    "max_score" : 1.3784561,
+    "hits" : [
+      {
+        "_index" : "logstash-firewall-2026.04.20",
+        "_id" : "yJ__rJ0BiAsFDItOMM3i",
+        "_score" : 1.3784561,
+        "_source" : {
+          "event_category" : [
+            "intrusion_detection",
+            "intrusion_detection"
+          ],
+          "ids_classification" : "successful-admin",
+          "host" : {
+            "architecture" : "x86_64",
+            "mac" : [
+              "08-00-27-33-A8-8E",
+              "08-00-27-3E-C1-78",
+              "08-00-27-83-35-C1"
+            ],
+            "name" : "gateway",
+            "ip" : [
+              "10.0.2.15",
+              "fd17:625c:f037:2:a00:27ff:fe33:a88e",
+              "fe80::a00:27ff:fe33:a88e",
+              "192.168.100.1",
+              "fe80::a00:27ff:fe3e:c178"
+            ],
+            "hostname" : "gateway",
+            "os" : {
+              "type" : "linux",
+              "name" : "Ubuntu",
+              "platform" : "ubuntu",
+              "version" : "24.04.4 LTS (Noble Numbat)",
+              "family" : "debian",
+              "codename" : "noble",
+              "kernel" : "6.8.0-101-generic"
+            },
+            "id" : "4d54ed2bc5244fbebbf9cbb6d46e75a6",
+            "containerized" : false
+          },
+          "@timestamp" : "2026-04-20T18:57:08.359Z",
+          "input" : {
+            "type" : "log"
+          },
+          "source_vm" : "gateway",
+          "network_protocol" : "TCP",
+          "source_ip" : "203.0.113.1",
+          "event_outcome" : "alert",
+          "message" : "[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/31/2026-20:00:01.719712 203.0.113.1:44784 -> 192.168.100.40:80 TCP",
+          "event_original" : "[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/31/2026-20:00:01.719712 203.0.113.1:44784 -> 192.168.100.40:80 TCP",
+          "destination_ip" : "192.168.100.40",
+          "tags" : [
+            "beats_input_codec_plain_applied",
+            "ids_alert"
+          ],
+          "log_type" : "ids",
+          "source_port" : 44784,
+          "ecs" : {
+            "version" : "8.0.0"
+          },
+          "event" : {
+            "original" : "[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/31/2026-20:00:01.719712 203.0.113.1:44784 -> 192.168.100.40:80 TCP"
+          },
+          "@version" : "1",
+          "agent" : {
+            "name" : "gateway",
+            "version" : "8.19.12",
+            "ephemeral_id" : "90fcf6a2-bca5-4f13-a04c-020c3f764fae",
+            "type" : "filebeat",
+            "id" : "14dab136-ab87-458f-abd8-b22ba49a53ff"
+          },
+          "log_message" : "[**] [1:300001:3] GPL ATTACK_RESPONSE id check returned root [**] [Classification: successful-admin] [Priority: 1] 03/31/2026-20:00:01.719712 203.0.113.1:44784 -> 192.168.100.40:80 TCP",
+          "ids_sid" : "1:300001:3",
+          "ids_signature" : "GPL ATTACK_RESPONSE id check returned root",
+          "ids_priority" : "1",
+          "destination_port" : 80,
+          "severity" : "CRITICAL",
+          "log" : {
+            "file" : {
+              "path" : "/var/log/snort/alert.log"
+            },
+            "offset" : 111849
+          }
+        }
+      }
+    ]
+  }
+}
