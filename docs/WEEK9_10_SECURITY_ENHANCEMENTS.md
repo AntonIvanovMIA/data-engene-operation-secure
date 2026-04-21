@@ -657,3 +657,19 @@ The ELK stack security and ingestion pipeline is now:
 * Expand threat detection rules
 
 ---
+## Automated Health Check Scheduling
+
+A cron job was configured to execute the health monitoring script every 15 minutes.  
+The output was redirected to a project evidence log file:
+
+`/home/student/catnip-soc/evidence/catnip-health.log`
+
+This allowed repeatable verification of system health without requiring manual execution each time.
+
+Verification was performed using:
+
+- `crontab -l`
+- manual execution of the same command
+- `tail -20` on the generated log output
+
+The test confirmed successful execution and a final system state of `HEALTHY` with 8/8 checks passed.
