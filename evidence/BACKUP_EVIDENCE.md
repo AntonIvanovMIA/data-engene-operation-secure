@@ -85,3 +85,23 @@ student@elasticstackstudentserver:~/catnip-soc$ ~/catnip-soc/scripts/backup.sh
   File: /home/student/backups/catnip-soc-backup-20260421_042959.tar.gz
   Size: 53K
 ==========================================
+
+
+added with cron
+
+ every day at 02:00:
+
+crontab -e
+
+Add:
+
+0 2 * * * /home/student/catnip-soc/scripts/backup.sh >> /home/student/catnip-soc/evidence/backup.log 2>&1
+
+Then it becomes automatic.
+
+!warning
+
+keep sudo commands inside the script, cron may fail unless:
+
+passwordless sudo is configured for those specific commands, or
+ run it manually after sudo -v
